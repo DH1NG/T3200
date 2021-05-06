@@ -58,6 +58,8 @@ CMAKE_BINARY_DIR = "D:\Pico\Studienarbeit - Display\build"
 # The main recursive "all" target.
 all: CMakeFiles\Studienarbeit_Display.dir\all
 all: CMakeFiles\PioasmBuild.dir\all
+all: CMakeFiles\kiss_fftr.dir\all
+all: CMakeFiles\kiss_fft.dir\all
 all: CMakeFiles\ELF2UF2Build.dir\all
 all: pico-sdk\all
 
@@ -72,6 +74,8 @@ preinstall: pico-sdk\preinstall
 clean: CMakeFiles\Studienarbeit_Display.dir\clean
 clean: CMakeFiles\PioasmBuild.dir\clean
 clean: CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\clean
+clean: CMakeFiles\kiss_fftr.dir\clean
+clean: CMakeFiles\kiss_fft.dir\clean
 clean: CMakeFiles\ELF2UF2Build.dir\clean
 clean: pico-sdk\clean
 
@@ -1469,17 +1473,19 @@ pico-sdk\tools\clean:
 # Target rules for target CMakeFiles/Studienarbeit_Display.dir
 
 # All Build rule for target.
+CMakeFiles\Studienarbeit_Display.dir\all: CMakeFiles\kiss_fftr.dir\all
+CMakeFiles\Studienarbeit_Display.dir\all: CMakeFiles\kiss_fft.dir\all
 CMakeFiles\Studienarbeit_Display.dir\all: CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\all
 CMakeFiles\Studienarbeit_Display.dir\all: CMakeFiles\ELF2UF2Build.dir\all
 CMakeFiles\Studienarbeit_Display.dir\all: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Built target Studienarbeit_Display"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86 "Built target Studienarbeit_Display"
 .PHONY : CMakeFiles\Studienarbeit_Display.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\Studienarbeit_Display.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Pico\Studienarbeit - Display\build\CMakeFiles" 70
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Pico\Studienarbeit - Display\build\CMakeFiles" 95
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Pico\Studienarbeit - Display\build\CMakeFiles" 0
 .PHONY : CMakeFiles\Studienarbeit_Display.dir\rule
@@ -1528,7 +1534,7 @@ CMakeFiles\PioasmBuild.dir\clean:
 CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\all: CMakeFiles\PioasmBuild.dir\all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=66 "Built target Studienarbeit_Display_Studienarbeit_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=87 "Built target Studienarbeit_Display_Studienarbeit_pio_h"
 .PHONY : CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1547,6 +1553,60 @@ Studienarbeit_Display_Studienarbeit_pio_h: CMakeFiles\Studienarbeit_Display_Stud
 CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\clean
 .PHONY : CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/kiss_fftr.dir
+
+# All Build rule for target.
+CMakeFiles\kiss_fftr.dir\all: CMakeFiles\kiss_fft.dir\all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kiss_fftr.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\kiss_fftr.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kiss_fftr.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\kiss_fftr.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=95,96 "Built target kiss_fftr"
+.PHONY : CMakeFiles\kiss_fftr.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\kiss_fftr.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Pico\Studienarbeit - Display\build\CMakeFiles" 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\kiss_fftr.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Pico\Studienarbeit - Display\build\CMakeFiles" 0
+.PHONY : CMakeFiles\kiss_fftr.dir\rule
+
+# Convenience name for target.
+kiss_fftr: CMakeFiles\kiss_fftr.dir\rule
+
+.PHONY : kiss_fftr
+
+# clean rule for target.
+CMakeFiles\kiss_fftr.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kiss_fftr.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\kiss_fftr.dir\clean
+.PHONY : CMakeFiles\kiss_fftr.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/kiss_fft.dir
+
+# All Build rule for target.
+CMakeFiles\kiss_fft.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kiss_fft.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\kiss_fft.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kiss_fft.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\kiss_fft.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=93,94 "Built target kiss_fft"
+.PHONY : CMakeFiles\kiss_fft.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\kiss_fft.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Pico\Studienarbeit - Display\build\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\kiss_fft.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Pico\Studienarbeit - Display\build\CMakeFiles" 0
+.PHONY : CMakeFiles\kiss_fft.dir\rule
+
+# Convenience name for target.
+kiss_fft: CMakeFiles\kiss_fft.dir\rule
+
+.PHONY : kiss_fft
+
+# clean rule for target.
+CMakeFiles\kiss_fft.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kiss_fft.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\kiss_fft.dir\clean
+.PHONY : CMakeFiles\kiss_fft.dir\clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ELF2UF2Build.dir
@@ -1582,7 +1642,7 @@ CMakeFiles\ELF2UF2Build.dir\clean:
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all:
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=67,68 "Built target bs2_default"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=88,89 "Built target bs2_default"
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1609,7 +1669,7 @@ pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\clean:
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\all: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=69 "Built target bs2_default_bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=90 "Built target bs2_default_bin"
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1636,7 +1696,7 @@ pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\clean:
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\all: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=70,71 "Built target bs2_default_padded_checksummed_asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=91,92 "Built target bs2_default_padded_checksummed_asm"
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\all
 
 # Build rule for subdir invocation for target.

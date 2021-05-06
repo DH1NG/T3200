@@ -570,9 +570,256 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
 
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\tusb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\tusb.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\lib\tinyusb\src\tusb.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\lib\tinyusb\src\tusb.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
+
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.i: cmake_force
@@ -585,7 +832,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pi
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.i: cmake_force
@@ -595,6 +842,32 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_i2
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.s
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c > CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.i
+
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.s
 
 # Object files for target Studienarbeit_Display
 Studienarbeit_Display_OBJECTS = \
@@ -644,8 +917,29 @@ Studienarbeit_Display_OBJECTS = \
 "CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj" \
 "CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj" \
 "CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj" \
 "CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj" \
-"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj"
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj" \
+"CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj"
 
 # External object files for target Studienarbeit_Display
 Studienarbeit_Display_EXTERNAL_OBJECTS =
@@ -696,13 +990,36 @@ Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk
 Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
 Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
 Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
 Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj
 Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj
+Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj
 Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\build.make
+Studienarbeit_Display.elf: libkiss_fftr.a
 Studienarbeit_Display.elf: pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S
+Studienarbeit_Display.elf: libkiss_fft.a
 Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX executable Studienarbeit_Display.elf"
-	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR10B2~1.EXE -march=armv6-m -mcpu=cortex-m0plus -mthumb -Og -g -Wl,--build-id=none --specs=nosys.specs -Wl,--wrap=sprintf -Wl,--wrap=snprintf -Wl,--wrap=vsnprintf -Wl,--wrap=__clzsi2 -Wl,--wrap=__clzdi2 -Wl,--wrap=__ctzsi2 -Wl,--wrap=__ctzdi2 -Wl,--wrap=__popcountsi2 -Wl,--wrap=__popcountdi2 -Wl,--wrap=__clz -Wl,--wrap=__clzl -Wl,--wrap=__clzll -Wl,--wrap=__aeabi_idiv -Wl,--wrap=__aeabi_idivmod -Wl,--wrap=__aeabi_ldivmod -Wl,--wrap=__aeabi_uidiv -Wl,--wrap=__aeabi_uidivmod -Wl,--wrap=__aeabi_uldivmod -Wl,--wrap=__aeabi_dadd -Wl,--wrap=__aeabi_ddiv -Wl,--wrap=__aeabi_dmul -Wl,--wrap=__aeabi_drsub -Wl,--wrap=__aeabi_dsub -Wl,--wrap=__aeabi_cdcmpeq -Wl,--wrap=__aeabi_cdrcmple -Wl,--wrap=__aeabi_cdcmple -Wl,--wrap=__aeabi_dcmpeq -Wl,--wrap=__aeabi_dcmplt -Wl,--wrap=__aeabi_dcmple -Wl,--wrap=__aeabi_dcmpge -Wl,--wrap=__aeabi_dcmpgt -Wl,--wrap=__aeabi_dcmpun -Wl,--wrap=__aeabi_i2d -Wl,--wrap=__aeabi_l2d -Wl,--wrap=__aeabi_ui2d -Wl,--wrap=__aeabi_ul2d -Wl,--wrap=__aeabi_d2iz -Wl,--wrap=__aeabi_d2lz -Wl,--wrap=__aeabi_d2uiz -Wl,--wrap=__aeabi_d2ulz -Wl,--wrap=__aeabi_d2f -Wl,--wrap=sqrt -Wl,--wrap=cos -Wl,--wrap=sin -Wl,--wrap=tan -Wl,--wrap=atan2 -Wl,--wrap=exp -Wl,--wrap=log -Wl,--wrap=ldexp -Wl,--wrap=copysign -Wl,--wrap=trunc -Wl,--wrap=floor -Wl,--wrap=ceil -Wl,--wrap=round -Wl,--wrap=sincos -Wl,--wrap=asin -Wl,--wrap=acos -Wl,--wrap=atan -Wl,--wrap=sinh -Wl,--wrap=cosh -Wl,--wrap=tanh -Wl,--wrap=asinh -Wl,--wrap=acosh -Wl,--wrap=atanh -Wl,--wrap=exp2 -Wl,--wrap=log2 -Wl,--wrap=exp10 -Wl,--wrap=log10 -Wl,--wrap=pow -Wl,--wrap=powint -Wl,--wrap=hypot -Wl,--wrap=cbrt -Wl,--wrap=fmod -Wl,--wrap=drem -Wl,--wrap=remainder -Wl,--wrap=remquo -Wl,--wrap=expm1 -Wl,--wrap=log1p -Wl,--wrap=fma -Wl,--wrap=__aeabi_lmul -Wl,--wrap=__aeabi_fadd -Wl,--wrap=__aeabi_fdiv -Wl,--wrap=__aeabi_fmul -Wl,--wrap=__aeabi_frsub -Wl,--wrap=__aeabi_fsub -Wl,--wrap=__aeabi_cfcmpeq -Wl,--wrap=__aeabi_cfrcmple -Wl,--wrap=__aeabi_cfcmple -Wl,--wrap=__aeabi_fcmpeq -Wl,--wrap=__aeabi_fcmplt -Wl,--wrap=__aeabi_fcmple -Wl,--wrap=__aeabi_fcmpge -Wl,--wrap=__aeabi_fcmpgt -Wl,--wrap=__aeabi_fcmpun -Wl,--wrap=__aeabi_i2f -Wl,--wrap=__aeabi_l2f -Wl,--wrap=__aeabi_ui2f -Wl,--wrap=__aeabi_ul2f -Wl,--wrap=__aeabi_f2iz -Wl,--wrap=__aeabi_f2lz -Wl,--wrap=__aeabi_f2uiz -Wl,--wrap=__aeabi_f2ulz -Wl,--wrap=__aeabi_f2d -Wl,--wrap=sqrtf -Wl,--wrap=cosf -Wl,--wrap=sinf -Wl,--wrap=tanf -Wl,--wrap=atan2f -Wl,--wrap=expf -Wl,--wrap=logf -Wl,--wrap=ldexpf -Wl,--wrap=copysignf -Wl,--wrap=truncf -Wl,--wrap=floorf -Wl,--wrap=ceilf -Wl,--wrap=roundf -Wl,--wrap=sincosf -Wl,--wrap=asinf -Wl,--wrap=acosf -Wl,--wrap=atanf -Wl,--wrap=sinhf -Wl,--wrap=coshf -Wl,--wrap=tanhf -Wl,--wrap=asinhf -Wl,--wrap=acoshf -Wl,--wrap=atanhf -Wl,--wrap=exp2f -Wl,--wrap=log2f -Wl,--wrap=exp10f -Wl,--wrap=log10f -Wl,--wrap=powf -Wl,--wrap=powintf -Wl,--wrap=hypotf -Wl,--wrap=cbrtf -Wl,--wrap=fmodf -Wl,--wrap=dremf -Wl,--wrap=remainderf -Wl,--wrap=remquof -Wl,--wrap=expm1f -Wl,--wrap=log1pf -Wl,--wrap=fmaf -Wl,--wrap=malloc -Wl,--wrap=calloc -Wl,--wrap=free -Wl,--wrap=memcpy -Wl,--wrap=memset -Wl,--wrap=__aeabi_memcpy -Wl,--wrap=__aeabi_memset -Wl,--wrap=__aeabi_memcpy4 -Wl,--wrap=__aeabi_memset4 -Wl,--wrap=__aeabi_memcpy8 -Wl,--wrap=__aeabi_memset8 -Wl,-Map=Studienarbeit_Display.elf.map -Wl,--script=D:/Pico/pico-sdk/src/rp2_common/pico_standard_link/memmap_default.ld -Wl,--gc-sections -Wl,--wrap=printf -Wl,--wrap=vprintf -Wl,--wrap=puts -Wl,--wrap=putchar @CMakeFiles\Studienarbeit_Display.dir\objects1.rsp -o Studienarbeit_Display.elf  pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable Studienarbeit_Display.elf"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR10B2~1.EXE -march=armv6-m -mcpu=cortex-m0plus -mthumb -Og -g -Wl,--build-id=none --specs=nosys.specs -Wl,--wrap=sprintf -Wl,--wrap=snprintf -Wl,--wrap=vsnprintf -Wl,--wrap=__clzsi2 -Wl,--wrap=__clzdi2 -Wl,--wrap=__ctzsi2 -Wl,--wrap=__ctzdi2 -Wl,--wrap=__popcountsi2 -Wl,--wrap=__popcountdi2 -Wl,--wrap=__clz -Wl,--wrap=__clzl -Wl,--wrap=__clzll -Wl,--wrap=__aeabi_idiv -Wl,--wrap=__aeabi_idivmod -Wl,--wrap=__aeabi_ldivmod -Wl,--wrap=__aeabi_uidiv -Wl,--wrap=__aeabi_uidivmod -Wl,--wrap=__aeabi_uldivmod -Wl,--wrap=__aeabi_dadd -Wl,--wrap=__aeabi_ddiv -Wl,--wrap=__aeabi_dmul -Wl,--wrap=__aeabi_drsub -Wl,--wrap=__aeabi_dsub -Wl,--wrap=__aeabi_cdcmpeq -Wl,--wrap=__aeabi_cdrcmple -Wl,--wrap=__aeabi_cdcmple -Wl,--wrap=__aeabi_dcmpeq -Wl,--wrap=__aeabi_dcmplt -Wl,--wrap=__aeabi_dcmple -Wl,--wrap=__aeabi_dcmpge -Wl,--wrap=__aeabi_dcmpgt -Wl,--wrap=__aeabi_dcmpun -Wl,--wrap=__aeabi_i2d -Wl,--wrap=__aeabi_l2d -Wl,--wrap=__aeabi_ui2d -Wl,--wrap=__aeabi_ul2d -Wl,--wrap=__aeabi_d2iz -Wl,--wrap=__aeabi_d2lz -Wl,--wrap=__aeabi_d2uiz -Wl,--wrap=__aeabi_d2ulz -Wl,--wrap=__aeabi_d2f -Wl,--wrap=sqrt -Wl,--wrap=cos -Wl,--wrap=sin -Wl,--wrap=tan -Wl,--wrap=atan2 -Wl,--wrap=exp -Wl,--wrap=log -Wl,--wrap=ldexp -Wl,--wrap=copysign -Wl,--wrap=trunc -Wl,--wrap=floor -Wl,--wrap=ceil -Wl,--wrap=round -Wl,--wrap=sincos -Wl,--wrap=asin -Wl,--wrap=acos -Wl,--wrap=atan -Wl,--wrap=sinh -Wl,--wrap=cosh -Wl,--wrap=tanh -Wl,--wrap=asinh -Wl,--wrap=acosh -Wl,--wrap=atanh -Wl,--wrap=exp2 -Wl,--wrap=log2 -Wl,--wrap=exp10 -Wl,--wrap=log10 -Wl,--wrap=pow -Wl,--wrap=powint -Wl,--wrap=hypot -Wl,--wrap=cbrt -Wl,--wrap=fmod -Wl,--wrap=drem -Wl,--wrap=remainder -Wl,--wrap=remquo -Wl,--wrap=expm1 -Wl,--wrap=log1p -Wl,--wrap=fma -Wl,--wrap=__aeabi_lmul -Wl,--wrap=__aeabi_fadd -Wl,--wrap=__aeabi_fdiv -Wl,--wrap=__aeabi_fmul -Wl,--wrap=__aeabi_frsub -Wl,--wrap=__aeabi_fsub -Wl,--wrap=__aeabi_cfcmpeq -Wl,--wrap=__aeabi_cfrcmple -Wl,--wrap=__aeabi_cfcmple -Wl,--wrap=__aeabi_fcmpeq -Wl,--wrap=__aeabi_fcmplt -Wl,--wrap=__aeabi_fcmple -Wl,--wrap=__aeabi_fcmpge -Wl,--wrap=__aeabi_fcmpgt -Wl,--wrap=__aeabi_fcmpun -Wl,--wrap=__aeabi_i2f -Wl,--wrap=__aeabi_l2f -Wl,--wrap=__aeabi_ui2f -Wl,--wrap=__aeabi_ul2f -Wl,--wrap=__aeabi_f2iz -Wl,--wrap=__aeabi_f2lz -Wl,--wrap=__aeabi_f2uiz -Wl,--wrap=__aeabi_f2ulz -Wl,--wrap=__aeabi_f2d -Wl,--wrap=sqrtf -Wl,--wrap=cosf -Wl,--wrap=sinf -Wl,--wrap=tanf -Wl,--wrap=atan2f -Wl,--wrap=expf -Wl,--wrap=logf -Wl,--wrap=ldexpf -Wl,--wrap=copysignf -Wl,--wrap=truncf -Wl,--wrap=floorf -Wl,--wrap=ceilf -Wl,--wrap=roundf -Wl,--wrap=sincosf -Wl,--wrap=asinf -Wl,--wrap=acosf -Wl,--wrap=atanf -Wl,--wrap=sinhf -Wl,--wrap=coshf -Wl,--wrap=tanhf -Wl,--wrap=asinhf -Wl,--wrap=acoshf -Wl,--wrap=atanhf -Wl,--wrap=exp2f -Wl,--wrap=log2f -Wl,--wrap=exp10f -Wl,--wrap=log10f -Wl,--wrap=powf -Wl,--wrap=powintf -Wl,--wrap=hypotf -Wl,--wrap=cbrtf -Wl,--wrap=fmodf -Wl,--wrap=dremf -Wl,--wrap=remainderf -Wl,--wrap=remquof -Wl,--wrap=expm1f -Wl,--wrap=log1pf -Wl,--wrap=fmaf -Wl,--wrap=malloc -Wl,--wrap=calloc -Wl,--wrap=free -Wl,--wrap=memcpy -Wl,--wrap=memset -Wl,--wrap=__aeabi_memcpy -Wl,--wrap=__aeabi_memset -Wl,--wrap=__aeabi_memcpy4 -Wl,--wrap=__aeabi_memset4 -Wl,--wrap=__aeabi_memcpy8 -Wl,--wrap=__aeabi_memset8 -Wl,-Map=Studienarbeit_Display.elf.map -Wl,--script=D:/Pico/pico-sdk/src/rp2_common/pico_standard_link/memmap_default.ld -Wl,--gc-sections -Wl,--wrap=printf -Wl,--wrap=vprintf -Wl,--wrap=puts -Wl,--wrap=putchar @CMakeFiles\Studienarbeit_Display.dir\objects1.rsp -o Studienarbeit_Display.elf  libkiss_fftr.a pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S libkiss_fft.a 
 	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin\arm-none-eabi-objcopy.exe" -Oihex Studienarbeit_Display.elf Studienarbeit_Display.hex
 	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin\arm-none-eabi-objcopy.exe" -Obinary Studienarbeit_Display.elf Studienarbeit_Display.bin
 	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin\arm-none-eabi-objdump.exe" -h Studienarbeit_Display.elf >Studienarbeit_Display.dis

@@ -59,17 +59,6 @@ CMAKE_BINARY_DIR = "D:\Pico\Studienarbeit - Display\build"
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache\fast: rebuild_cache
-
-.PHONY : rebuild_cache\fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -80,6 +69,17 @@ edit_cache:
 edit_cache\fast: edit_cache
 
 .PHONY : edit_cache\fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache\fast: rebuild_cache
+
+.PHONY : rebuild_cache\fast
 
 # The main all target
 all: cmake_check_build_system
@@ -153,6 +153,32 @@ Studienarbeit_Display_Studienarbeit_pio_h\fast:
 .PHONY : Studienarbeit_Display_Studienarbeit_pio_h\fast
 
 #=============================================================================
+# Target rules for targets named kiss_fftr
+
+# Build rule for target.
+kiss_fftr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) kiss_fftr
+.PHONY : kiss_fftr
+
+# fast build rule for target.
+kiss_fftr\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kiss_fftr.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\kiss_fftr.dir\build
+.PHONY : kiss_fftr\fast
+
+#=============================================================================
+# Target rules for targets named kiss_fft
+
+# Build rule for target.
+kiss_fft: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) kiss_fft
+.PHONY : kiss_fft
+
+# fast build rule for target.
+kiss_fft\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kiss_fft.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\kiss_fft.dir\build
+.PHONY : kiss_fft\fast
+
+#=============================================================================
 # Target rules for targets named ELF2UF2Build
 
 # Build rule for target.
@@ -203,6 +229,411 @@ bs2_default_padded_checksummed_asm: cmake_check_build_system
 bs2_default_padded_checksummed_asm\fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build
 .PHONY : bs2_default_padded_checksummed_asm\fast
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.obj: D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.i: D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.s: D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.obj: D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.i: D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.s: D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.obj: D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.i: D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.s: D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.obj: D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.i: D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.s: D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.obj: D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.i: D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.s: D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.obj: D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.i: D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.s: D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.obj: D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.i: D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.i
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.i
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.i
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.s: D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.s
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.s
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.s
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.obj: D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.i: D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.s: D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.obj: D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.i: D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
+
+D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.s: D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
+
+D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.obj: D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj
+
+D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.i: D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
+
+D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.s: D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
+
+D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.obj: D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj
+
+D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.i: D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i
+
+D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.s: D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.s
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.s
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.s
+
+D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.obj: D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj
+
+D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.i: D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
+
+D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.s: D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
+
+D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.obj: D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj
+
+D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.i: D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
+
+D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.s: D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
+
+D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.obj: D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj
+
+D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.i: D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
+
+D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.s: D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
+
+D_\Pico\pico-sdk\lib\tinyusb\src\tusb.obj: D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\tusb.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj
+
+D_\Pico\pico-sdk\lib\tinyusb\src\tusb.i: D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.i
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\tusb.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.i
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.i
+
+D_\Pico\pico-sdk\lib\tinyusb\src\tusb.s: D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.s
+
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\tusb.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.s
+.PHONY : D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.s
 
 D_\Pico\pico-sdk\src\common\pico_sync\critical_section.obj: D_\Pico\pico-sdk\src\common\pico_sync\critical_section.c.obj
 
@@ -447,6 +878,33 @@ D_\Pico\pico-sdk\src\common\pico_util\queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_util\queue.c.s
 .PHONY : D_\Pico\pico-sdk\src\common\pico_util\queue.c.s
 
+D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.obj: D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj
+
+D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.i: D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.i
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.i
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.i
+
+D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.s: D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.s
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.s
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.s
+
 D_\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.obj: D_\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
 
 .PHONY : D_\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.obj
@@ -509,6 +967,33 @@ D_\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.obj: D_\Pico\pico-sdk\s
 D_\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
 .PHONY : D_\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
+
+D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.obj: D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj
+
+D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.i: D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.i
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.i
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.i
+
+D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.s: D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.s
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.s
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.s
 
 D_\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.obj: D_\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
 
@@ -933,6 +1418,33 @@ D_\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
 .PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
 
+D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.obj: D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
+
+D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.i: D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
+
+D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.s: D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
+
 D_\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.obj: D_\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj
 
 .PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.obj
@@ -1248,6 +1760,87 @@ D_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
 .PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
 
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.obj: D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
+
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.i: D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
+
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.s: D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
+
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.obj: D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj
+
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.i: D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i
+
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.s: D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s
+
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.obj: D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.obj
+
+# target to build an object file
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj
+
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.i: D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.i
+
+# target to preprocess a source file
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i
+
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.s: D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s
+
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.s
+
+# target to generate assembly for a file
+D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s
+.PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s
+
 D_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.obj: D_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
 
 .PHONY : D_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.obj
@@ -1302,6 +1895,60 @@ Studienarbeit_Display.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Studienarbeit_Display.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Studienarbeit_Display.dir\Studienarbeit_Display.c.s
 .PHONY : Studienarbeit_Display.c.s
 
+kiss_fft.obj: kiss_fft.c.obj
+
+.PHONY : kiss_fft.obj
+
+# target to build an object file
+kiss_fft.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kiss_fft.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\kiss_fft.dir\kiss_fft.c.obj
+.PHONY : kiss_fft.c.obj
+
+kiss_fft.i: kiss_fft.c.i
+
+.PHONY : kiss_fft.i
+
+# target to preprocess a source file
+kiss_fft.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kiss_fft.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\kiss_fft.dir\kiss_fft.c.i
+.PHONY : kiss_fft.c.i
+
+kiss_fft.s: kiss_fft.c.s
+
+.PHONY : kiss_fft.s
+
+# target to generate assembly for a file
+kiss_fft.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kiss_fft.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\kiss_fft.dir\kiss_fft.c.s
+.PHONY : kiss_fft.c.s
+
+kiss_fftr.obj: kiss_fftr.c.obj
+
+.PHONY : kiss_fftr.obj
+
+# target to build an object file
+kiss_fftr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kiss_fftr.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\kiss_fftr.dir\kiss_fftr.c.obj
+.PHONY : kiss_fftr.c.obj
+
+kiss_fftr.i: kiss_fftr.c.i
+
+.PHONY : kiss_fftr.i
+
+# target to preprocess a source file
+kiss_fftr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kiss_fftr.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\kiss_fftr.dir\kiss_fftr.c.i
+.PHONY : kiss_fftr.c.i
+
+kiss_fftr.s: kiss_fftr.c.s
+
+.PHONY : kiss_fftr.s
+
+# target to generate assembly for a file
+kiss_fftr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kiss_fftr.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\kiss_fftr.dir\kiss_fftr.c.s
+.PHONY : kiss_fftr.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1317,6 +1964,53 @@ help:
 	@echo ... bs2_default_padded_checksummed_asm
 	@echo ... Studienarbeit_Display
 	@echo ... bs2_default
+	@echo ... kiss_fft
+	@echo ... kiss_fftr
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.obj
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.i
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.s
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.obj
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.i
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.s
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/tusb.obj
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/tusb.i
+	@echo ... D_/Pico/pico-sdk/lib/tinyusb/src/tusb.s
 	@echo ... D_/Pico/pico-sdk/src/common/pico_sync/critical_section.obj
 	@echo ... D_/Pico/pico-sdk/src/common/pico_sync/critical_section.i
 	@echo ... D_/Pico/pico-sdk/src/common/pico_sync/critical_section.s
@@ -1344,6 +2038,9 @@ help:
 	@echo ... D_/Pico/pico-sdk/src/common/pico_util/queue.obj
 	@echo ... D_/Pico/pico-sdk/src/common/pico_util/queue.i
 	@echo ... D_/Pico/pico-sdk/src/common/pico_util/queue.s
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.i
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.s
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.i
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.s
@@ -1351,6 +2048,9 @@ help:
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.i
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.s
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
@@ -1398,6 +2098,9 @@ help:
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.i
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.s
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
@@ -1433,12 +2136,27 @@ help:
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
 	@echo ... D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
 	@echo ... Studienarbeit_Display.obj
 	@echo ... Studienarbeit_Display.i
 	@echo ... Studienarbeit_Display.s
+	@echo ... kiss_fft.obj
+	@echo ... kiss_fft.i
+	@echo ... kiss_fft.s
+	@echo ... kiss_fftr.obj
+	@echo ... kiss_fftr.i
+	@echo ... kiss_fftr.s
 .PHONY : help
 
 

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+D:/Pico/Studienarbeit - Display/Display.h
+stdio.h
+-
+
 D:/Pico/Studienarbeit - Display/Studienarbeit_Display.c
 stdio.h
 -
@@ -21,6 +25,38 @@ Studienarbeit.pio.h
 D:/Pico/Studienarbeit - Display/Studienarbeit.pio.h
 hardware/i2c.h
 D:/Pico/Studienarbeit - Display/hardware/i2c.h
+Display.h
+D:/Pico/Studienarbeit - Display/Display.h
+stdio.h
+-
+math.h
+-
+pico/stdlib.h
+D:/Pico/Studienarbeit - Display/pico/stdlib.h
+hardware/adc.h
+D:/Pico/Studienarbeit - Display/hardware/adc.h
+hardware/dma.h
+D:/Pico/Studienarbeit - Display/hardware/dma.h
+kiss_fftr.h
+D:/Pico/Studienarbeit - Display/kiss_fftr.h
+
+D:/Pico/Studienarbeit - Display/kiss_fft.h
+stdlib.h
+-
+stdio.h
+-
+math.h
+-
+string.h
+-
+xmmintrin.h
+-
+sys/types.h
+-
+
+D:/Pico/Studienarbeit - Display/kiss_fftr.h
+kiss_fft.h
+D:/Pico/Studienarbeit - Display/kiss_fft.h
 
 D:/Pico/pico-sdk/src/boards/include/boards/pico.h
 
@@ -86,11 +122,15 @@ D:/Pico/pico-sdk/src/common/pico_time/include/pico/hardware/timer.h
 
 D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 
+D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
+
 D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 hardware/platform_defs.h
 D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/hardware/platform_defs.h
 
 D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
+
+D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h
 
 D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
 
@@ -106,6 +146,12 @@ D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 
 D:/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
 
+D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h
+hardware/address_mapped.h
+D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
+hardware/regs/adc.h
+D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/adc.h
+
 D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
 hardware/address_mapped.h
 D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
@@ -113,6 +159,14 @@ hardware/platform_defs.h
 D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/platform_defs.h
 hardware/regs/clocks.h
 D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/clocks.h
+
+D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h
+hardware/address_mapped.h
+D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
+hardware/platform_defs.h
+D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/platform_defs.h
+hardware/regs/dma.h
+D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/dma.h
 
 D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h
 hardware/address_mapped.h
@@ -166,6 +220,14 @@ D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/a
 hardware/regs/uart.h
 D:/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/uart.h
 
+D:/Pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h
+pico.h
+D:/Pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/pico.h
+hardware/structs/adc.h
+D:/Pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/hardware/structs/adc.h
+hardware/gpio.h
+D:/Pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/hardware/gpio.h
+
 D:/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 pico.h
 D:/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/pico.h
@@ -177,6 +239,16 @@ pico.h
 D:/Pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/pico.h
 hardware/structs/clocks.h
 D:/Pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/hardware/structs/clocks.h
+
+D:/Pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h
+pico.h
+D:/Pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/pico.h
+hardware/structs/dma.h
+D:/Pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/hardware/structs/dma.h
+hardware/regs/dreq.h
+D:/Pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/hardware/regs/dreq.h
+pico/assert.h
+D:/Pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/pico/assert.h
 
 D:/Pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
 pico.h
@@ -241,6 +313,10 @@ pico/stdio.h
 D:/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/pico/stdio.h
 hardware/uart.h
 D:/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/hardware/uart.h
+
+D:/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+pico/stdio.h
+D:/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/pico/stdio.h
 
 Studienarbeit.pio.h
 hardware/pio.h

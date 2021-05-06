@@ -12,8 +12,16 @@ pico_sdk_init() # init pico sdk
 add_executable(Studienarbeit_Display) 
 pico_generate_pio_header(Studienarbeit_Display ${CMAKE_CURRENT_LIST_DIR}/Studienarbeit.pio)
 
+add_library(kiss_fftr kiss_fftr.c)
+add_library(kiss_fft kiss_fft.c)
+target_link_libraries(kiss_fftr kiss_fft)
+
+pico_enable_stdio_usb(Studienarbeit_Display 1)
+pico_enable_stdio_uart(Studienarbeit_Display 1)
+
+
 target_sources(Studienarbeit_Display PRIVATE Studienarbeit_Display.c)
-target_link_libraries(Studienarbeit_Display PRIVATE pico_stdlib hardware_pio hardware_i2c)# Welche libs werden denn verwendet?
+target_link_libraries(Studienarbeit_Display PRIVATE pico_stdlib hardware_pio hardware_i2c hardware_adc hardware_dma kiss_fftr)# Welche libs werden denn verwendet?
 
 
 

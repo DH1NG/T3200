@@ -22,6 +22,9 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
+  "CFG_TUSB_DEBUG=1"
+  "CFG_TUSB_MCU=OPT_MCU_RP2040"
+  "CFG_TUSB_OS=OPT_OS_PICO"
   "PICO_BIT_OPS_PICO=1"
   "PICO_BOARD=\"pico\""
   "PICO_BOOT2_NAME=\"boot2_w25q080\""
@@ -39,6 +42,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "PICO_ON_DEVICE=1"
   "PICO_PRINTF_PICO=1"
   "PICO_STDIO_UART=1"
+  "PICO_STDIO_USB=1"
   "PICO_TARGET_NAME=\"Studienarbeit_Display\""
   "PICO_USE_BLOCKED_RAM=0"
   )
@@ -82,10 +86,32 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/Pico/pico-sdk/src/common/pico_binary_info/include"
   "D:/Pico/pico-sdk/src/rp2_common/pico_stdio/include"
   "D:/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include"
+  "D:/Pico/pico-sdk/lib/tinyusb/src"
+  "D:/Pico/pico-sdk/lib/tinyusb/src/common"
+  "D:/Pico/pico-sdk/lib/tinyusb/hw"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_pio/include"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+  "D:/Pico/pico-sdk/src/rp2_common/hardware_adc/include"
+  "D:/Pico/pico-sdk/src/rp2_common/hardware_dma/include"
   )
 set(CMAKE_DEPENDS_CHECK_C
+  "D:/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+  "D:/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+  "D:/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+  "D:/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+  "D:/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+  "D:/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+  "D:/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj"
+  "D:/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+  "D:/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+  "D:/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+  "D:/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+  "D:/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+  "D:/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+  "D:/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+  "D:/Pico/pico-sdk/lib/tinyusb/src/tusb.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
   "D:/Pico/pico-sdk/src/common/pico_sync/critical_section.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
   "D:/Pico/pico-sdk/src/common/pico_sync/lock_core.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
   "D:/Pico/pico-sdk/src/common/pico_sync/mutex.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
@@ -95,8 +121,10 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/Pico/pico-sdk/src/common/pico_util/datetime.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj"
   "D:/Pico/pico-sdk/src/common/pico_util/pheap.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj"
   "D:/Pico/pico-sdk/src/common/pico_util/queue.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
@@ -111,6 +139,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
   "D:/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
   "D:/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
   "D:/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
   "D:/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
   "D:/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
@@ -120,6 +149,9 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
   "D:/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
   "D:/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
   "D:/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
   "D:/Pico/Studienarbeit - Display/Studienarbeit_Display.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/Studienarbeit_Display.c.obj"
   )
@@ -127,6 +159,9 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
+  "CFG_TUSB_DEBUG=1"
+  "CFG_TUSB_MCU=OPT_MCU_RP2040"
+  "CFG_TUSB_OS=OPT_OS_PICO"
   "PICO_BIT_OPS_PICO=1"
   "PICO_BOARD=\"pico\""
   "PICO_BOOT2_NAME=\"boot2_w25q080\""
@@ -144,6 +179,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "PICO_ON_DEVICE=1"
   "PICO_PRINTF_PICO=1"
   "PICO_STDIO_UART=1"
+  "PICO_STDIO_USB=1"
   "PICO_TARGET_NAME=\"Studienarbeit_Display\""
   "PICO_USE_BLOCKED_RAM=0"
   )
@@ -187,8 +223,15 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "D:/Pico/pico-sdk/src/common/pico_binary_info/include"
   "D:/Pico/pico-sdk/src/rp2_common/pico_stdio/include"
   "D:/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include"
+  "D:/Pico/pico-sdk/lib/tinyusb/src"
+  "D:/Pico/pico-sdk/lib/tinyusb/src/common"
+  "D:/Pico/pico-sdk/lib/tinyusb/hw"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_pio/include"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+  "D:/Pico/pico-sdk/src/rp2_common/hardware_adc/include"
+  "D:/Pico/pico-sdk/src/rp2_common/hardware_dma/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
@@ -197,6 +240,9 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "CFG_TUSB_DEBUG=1"
+  "CFG_TUSB_MCU=OPT_MCU_RP2040"
+  "CFG_TUSB_OS=OPT_OS_PICO"
   "PICO_BIT_OPS_PICO=1"
   "PICO_BOARD=\"pico\""
   "PICO_BOOT2_NAME=\"boot2_w25q080\""
@@ -214,6 +260,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "PICO_ON_DEVICE=1"
   "PICO_PRINTF_PICO=1"
   "PICO_STDIO_UART=1"
+  "PICO_STDIO_USB=1"
   "PICO_TARGET_NAME=\"Studienarbeit_Display\""
   "PICO_USE_BLOCKED_RAM=0"
   )
@@ -257,12 +304,21 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "D:/Pico/pico-sdk/src/common/pico_binary_info/include"
   "D:/Pico/pico-sdk/src/rp2_common/pico_stdio/include"
   "D:/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include"
+  "D:/Pico/pico-sdk/lib/tinyusb/src"
+  "D:/Pico/pico-sdk/lib/tinyusb/src/common"
+  "D:/Pico/pico-sdk/lib/tinyusb/hw"
+  "D:/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_pio/include"
   "D:/Pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+  "D:/Pico/pico-sdk/src/rp2_common/hardware_adc/include"
+  "D:/Pico/pico-sdk/src/rp2_common/hardware_dma/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "D:/Pico/Studienarbeit - Display/build/CMakeFiles/kiss_fftr.dir/DependInfo.cmake"
+  "D:/Pico/Studienarbeit - Display/build/CMakeFiles/kiss_fft.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

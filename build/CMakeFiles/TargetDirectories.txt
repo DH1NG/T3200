@@ -1,9 +1,11 @@
 D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display.dir
 D:/Pico/Studienarbeit - Display/build/CMakeFiles/PioasmBuild.dir
 D:/Pico/Studienarbeit - Display/build/CMakeFiles/Studienarbeit_Display_Studienarbeit_pio_h.dir
+D:/Pico/Studienarbeit - Display/build/CMakeFiles/kiss_fftr.dir
+D:/Pico/Studienarbeit - Display/build/CMakeFiles/edit_cache.dir
+D:/Pico/Studienarbeit - Display/build/CMakeFiles/kiss_fft.dir
 D:/Pico/Studienarbeit - Display/build/CMakeFiles/rebuild_cache.dir
 D:/Pico/Studienarbeit - Display/build/CMakeFiles/ELF2UF2Build.dir
-D:/Pico/Studienarbeit - Display/build/CMakeFiles/edit_cache.dir
 D:/Pico/Studienarbeit - Display/build/pico-sdk/CMakeFiles/edit_cache.dir
 D:/Pico/Studienarbeit - Display/build/pico-sdk/CMakeFiles/rebuild_cache.dir
 D:/Pico/Studienarbeit - Display/build/pico-sdk/tools/CMakeFiles/edit_cache.dir

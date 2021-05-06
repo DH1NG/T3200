@@ -1,0 +1,2 @@
+C:\PROGRA~2\GNUARM~1\102020~1\bin\ARM-NO~2.EXE qc libkiss_fftr.a CMakeFiles/kiss_fftr.dir/kiss_fftr.c.obj
+C:\PROGRA~2\GNUARM~1\102020~1\bin\AR17F9~1.EXE libkiss_fftr.a
