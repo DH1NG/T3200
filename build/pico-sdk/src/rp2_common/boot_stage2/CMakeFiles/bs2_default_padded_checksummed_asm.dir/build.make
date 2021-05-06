@@ -46,10 +46,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Pico\Studienarbeit - Display"
+CMAKE_SOURCE_DIR = D:\Pico\Studienarbeit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Pico\Studienarbeit - Display\build"
+CMAKE_BINARY_DIR = D:\Pico\Studienarbeit\build
 
 # Utility rule file for bs2_default_padded_checksummed_asm.
 
@@ -57,20 +57,20 @@ CMAKE_BINARY_DIR = "D:\Pico\Studienarbeit - Display\build"
 include pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\progress.make
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm: pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
-	cd "D:\Pico\Studienarbeit - Display\build"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
+	cd D:\Pico\Studienarbeit\build
 
 pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S: pico-sdk\src\rp2_common\boot_stage2\bs2_default.bin
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
-	C:\Users\Niklas\AppData\Local\Programs\Python\Python39\python.exe D:/Pico/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff "D:/Pico/Studienarbeit - Display/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin" "D:/Pico/Studienarbeit - Display/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S"
-	cd "D:\Pico\Studienarbeit - Display\build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
+	C:\Users\Niklas\AppData\Local\Programs\Python\Python39\python.exe D:/Pico/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff D:/Pico/Studienarbeit/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin D:/Pico/Studienarbeit/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
+	cd D:\Pico\Studienarbeit\build
 
 pico-sdk\src\rp2_common\boot_stage2\bs2_default.bin: pico-sdk\src\rp2_common\boot_stage2\bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
-	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin\arm-none-eabi-objcopy.exe" -Obinary "D:/Pico/Studienarbeit - Display/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf" "D:/Pico/Studienarbeit - Display/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin"
-	cd "D:\Pico\Studienarbeit - Display\build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
+	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin\arm-none-eabi-objcopy.exe" -Obinary D:/Pico/Studienarbeit/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf D:/Pico/Studienarbeit/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	cd D:\Pico\Studienarbeit\build
 
 bs2_default_padded_checksummed_asm: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm
 bs2_default_padded_checksummed_asm: pico-sdk\src\rp2_common\boot_stage2\bs2_default.bin
@@ -85,12 +85,12 @@ pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_as
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\clean:
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
 	$(CMAKE_COMMAND) -P CMakeFiles\bs2_default_padded_checksummed_asm.dir\cmake_clean.cmake
-	cd "D:\Pico\Studienarbeit - Display\build"
+	cd D:\Pico\Studienarbeit\build
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\clean
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "D:\Pico\Studienarbeit - Display" D:\Pico\pico-sdk\src\rp2_common\boot_stage2 "D:\Pico\Studienarbeit - Display\build" "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2" "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Pico\Studienarbeit D:\Pico\pico-sdk\src\rp2_common\boot_stage2 D:\Pico\Studienarbeit\build D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2 D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\depend
 

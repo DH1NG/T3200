@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Pico/pico-sdk/tools/pioasm/ada_output.cpp" "D:/Pico/Studienarbeit - Display/build/pioasm/CMakeFiles/pioasm.dir/ada_output.cpp.obj"
-  "D:/Pico/pico-sdk/tools/pioasm/c_sdk_output.cpp" "D:/Pico/Studienarbeit - Display/build/pioasm/CMakeFiles/pioasm.dir/c_sdk_output.cpp.obj"
-  "D:/Pico/pico-sdk/tools/pioasm/gen/lexer.cpp" "D:/Pico/Studienarbeit - Display/build/pioasm/CMakeFiles/pioasm.dir/gen/lexer.cpp.obj"
-  "D:/Pico/pico-sdk/tools/pioasm/gen/parser.cpp" "D:/Pico/Studienarbeit - Display/build/pioasm/CMakeFiles/pioasm.dir/gen/parser.cpp.obj"
-  "D:/Pico/pico-sdk/tools/pioasm/hex_output.cpp" "D:/Pico/Studienarbeit - Display/build/pioasm/CMakeFiles/pioasm.dir/hex_output.cpp.obj"
-  "D:/Pico/pico-sdk/tools/pioasm/main.cpp" "D:/Pico/Studienarbeit - Display/build/pioasm/CMakeFiles/pioasm.dir/main.cpp.obj"
-  "D:/Pico/pico-sdk/tools/pioasm/pio_assembler.cpp" "D:/Pico/Studienarbeit - Display/build/pioasm/CMakeFiles/pioasm.dir/pio_assembler.cpp.obj"
-  "D:/Pico/pico-sdk/tools/pioasm/pio_disassembler.cpp" "D:/Pico/Studienarbeit - Display/build/pioasm/CMakeFiles/pioasm.dir/pio_disassembler.cpp.obj"
-  "D:/Pico/pico-sdk/tools/pioasm/python_output.cpp" "D:/Pico/Studienarbeit - Display/build/pioasm/CMakeFiles/pioasm.dir/python_output.cpp.obj"
+  "D:/Pico/pico-sdk/tools/pioasm/ada_output.cpp" "D:/Pico/Studienarbeit/build/pioasm/CMakeFiles/pioasm.dir/ada_output.cpp.obj"
+  "D:/Pico/pico-sdk/tools/pioasm/c_sdk_output.cpp" "D:/Pico/Studienarbeit/build/pioasm/CMakeFiles/pioasm.dir/c_sdk_output.cpp.obj"
+  "D:/Pico/pico-sdk/tools/pioasm/gen/lexer.cpp" "D:/Pico/Studienarbeit/build/pioasm/CMakeFiles/pioasm.dir/gen/lexer.cpp.obj"
+  "D:/Pico/pico-sdk/tools/pioasm/gen/parser.cpp" "D:/Pico/Studienarbeit/build/pioasm/CMakeFiles/pioasm.dir/gen/parser.cpp.obj"
+  "D:/Pico/pico-sdk/tools/pioasm/hex_output.cpp" "D:/Pico/Studienarbeit/build/pioasm/CMakeFiles/pioasm.dir/hex_output.cpp.obj"
+  "D:/Pico/pico-sdk/tools/pioasm/main.cpp" "D:/Pico/Studienarbeit/build/pioasm/CMakeFiles/pioasm.dir/main.cpp.obj"
+  "D:/Pico/pico-sdk/tools/pioasm/pio_assembler.cpp" "D:/Pico/Studienarbeit/build/pioasm/CMakeFiles/pioasm.dir/pio_assembler.cpp.obj"
+  "D:/Pico/pico-sdk/tools/pioasm/pio_disassembler.cpp" "D:/Pico/Studienarbeit/build/pioasm/CMakeFiles/pioasm.dir/pio_disassembler.cpp.obj"
+  "D:/Pico/pico-sdk/tools/pioasm/python_output.cpp" "D:/Pico/Studienarbeit/build/pioasm/CMakeFiles/pioasm.dir/python_output.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

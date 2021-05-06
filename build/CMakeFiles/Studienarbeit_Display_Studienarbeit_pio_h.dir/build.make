@@ -46,10 +46,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Pico\Studienarbeit - Display"
+CMAKE_SOURCE_DIR = D:\Pico\Studienarbeit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Pico\Studienarbeit - Display\build"
+CMAKE_BINARY_DIR = D:\Pico\Studienarbeit\build
 
 # Utility rule file for Studienarbeit_Display_Studienarbeit_pio_h.
 
@@ -60,8 +60,8 @@ CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h: Studienarbeit.pio.h
 
 
 Studienarbeit.pio.h: ..\Studienarbeit.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating Studienarbeit.pio.h"
-	pioasm\pioasm.exe -o c-sdk "D:/Pico/Studienarbeit - Display/Studienarbeit.pio" "D:/Pico/Studienarbeit - Display/build/Studienarbeit.pio.h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Studienarbeit.pio.h"
+	pioasm\pioasm.exe -o c-sdk D:/Pico/Studienarbeit/Studienarbeit.pio D:/Pico/Studienarbeit/build/Studienarbeit.pio.h
 
 Studienarbeit_Display_Studienarbeit_pio_h: CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h
 Studienarbeit_Display_Studienarbeit_pio_h: Studienarbeit.pio.h
@@ -79,6 +79,6 @@ CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\clean:
 .PHONY : CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\clean
 
 CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "D:\Pico\Studienarbeit - Display" "D:\Pico\Studienarbeit - Display" "D:\Pico\Studienarbeit - Display\build" "D:\Pico\Studienarbeit - Display\build" "D:\Pico\Studienarbeit - Display\build\CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Pico\Studienarbeit D:\Pico\Studienarbeit D:\Pico\Studienarbeit\build D:\Pico\Studienarbeit\build D:\Pico\Studienarbeit\build\CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\Studienarbeit_Display_Studienarbeit_pio_h.dir\depend
 

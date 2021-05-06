@@ -46,10 +46,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Pico\Studienarbeit - Display"
+CMAKE_SOURCE_DIR = D:\Pico\Studienarbeit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Pico\Studienarbeit - Display\build"
+CMAKE_BINARY_DIR = D:\Pico\Studienarbeit\build
 
 # Utility rule file for PioasmBuild.
 
@@ -67,57 +67,57 @@ CMakeFiles\PioasmBuild-complete: pioasm\src\PioasmBuild-stamp\PioasmBuild-patch
 CMakeFiles\PioasmBuild-complete: pioasm\src\PioasmBuild-stamp\PioasmBuild-configure
 CMakeFiles\PioasmBuild-complete: pioasm\src\PioasmBuild-stamp\PioasmBuild-build
 CMakeFiles\PioasmBuild-complete: pioasm\src\PioasmBuild-stamp\PioasmBuild-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/Pico/Studienarbeit - Display/build/CMakeFiles"
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Pico/Studienarbeit - Display/build/CMakeFiles/PioasmBuild-complete"
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Pico/Studienarbeit - Display/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-done"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Pico/Studienarbeit/build/CMakeFiles
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Pico/Studienarbeit/build/CMakeFiles/PioasmBuild-complete
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Pico/Studienarbeit/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-done
 
 pioasm\src\PioasmBuild-stamp\PioasmBuild-install: pioasm\src\PioasmBuild-stamp\PioasmBuild-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'PioasmBuild'"
-	cd "D:\Pico\Studienarbeit - Display\build\pioasm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'PioasmBuild'"
+	cd D:\Pico\Studienarbeit\build\pioasm
 	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Pico/Studienarbeit - Display/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-install"
-	cd "D:\Pico\Studienarbeit - Display\build"
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Pico/Studienarbeit/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-install
+	cd D:\Pico\Studienarbeit\build
 
 pioasm\src\PioasmBuild-stamp\PioasmBuild-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'PioasmBuild'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'PioasmBuild'"
 	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Pico/pico-sdk/tools/pioasm
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/Pico/Studienarbeit - Display/build/pioasm"
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/Pico/Studienarbeit - Display/build/pioasm"
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/Pico/Studienarbeit - Display/build/pioasm/tmp"
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/Pico/Studienarbeit - Display/build/pioasm/src/PioasmBuild-stamp"
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/Pico/Studienarbeit - Display/build/pioasm/src"
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/Pico/Studienarbeit - Display/build/pioasm/src/PioasmBuild-stamp"
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Pico/Studienarbeit - Display/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir"
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Pico/Studienarbeit/build/pioasm
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Pico/Studienarbeit/build/pioasm
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Pico/Studienarbeit/build/pioasm/tmp
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Pico/Studienarbeit/build/pioasm/src/PioasmBuild-stamp
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Pico/Studienarbeit/build/pioasm/src
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Pico/Studienarbeit/build/pioasm/src/PioasmBuild-stamp
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Pico/Studienarbeit/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
 
 pioasm\src\PioasmBuild-stamp\PioasmBuild-download: pioasm\src\PioasmBuild-stamp\PioasmBuild-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
 	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Pico/Studienarbeit - Display/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-download"
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Pico/Studienarbeit/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
 
 pioasm\src\PioasmBuild-stamp\PioasmBuild-update: pioasm\src\PioasmBuild-stamp\PioasmBuild-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'PioasmBuild'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'PioasmBuild'"
 	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Pico/Studienarbeit - Display/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-update"
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Pico/Studienarbeit/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
 
 pioasm\src\PioasmBuild-stamp\PioasmBuild-patch: pioasm\src\PioasmBuild-stamp\PioasmBuild-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'PioasmBuild'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'PioasmBuild'"
 	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Pico/Studienarbeit - Display/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch"
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Pico/Studienarbeit/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
 
 pioasm\src\PioasmBuild-stamp\PioasmBuild-configure: pioasm\tmp\PioasmBuild-cfgcmd.txt
 pioasm\src\PioasmBuild-stamp\PioasmBuild-configure: pioasm\src\PioasmBuild-stamp\PioasmBuild-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'PioasmBuild'"
-	cd "D:\Pico\Studienarbeit - Display\build\pioasm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'PioasmBuild'"
+	cd D:\Pico\Studienarbeit\build\pioasm
 	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" "-GNMake Makefiles" D:/Pico/pico-sdk/tools/pioasm
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Pico/Studienarbeit - Display/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure"
-	cd "D:\Pico\Studienarbeit - Display\build"
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Pico/Studienarbeit/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
+	cd D:\Pico\Studienarbeit\build
 
 pioasm\src\PioasmBuild-stamp\PioasmBuild-build: pioasm\src\PioasmBuild-stamp\PioasmBuild-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'PioasmBuild'"
-	cd "D:\Pico\Studienarbeit - Display\build\pioasm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'PioasmBuild'"
+	cd D:\Pico\Studienarbeit\build\pioasm
 	$(MAKE)
-	cd "D:\Pico\Studienarbeit - Display\build"
+	cd D:\Pico\Studienarbeit\build
 
 PioasmBuild: CMakeFiles\PioasmBuild
 PioasmBuild: CMakeFiles\PioasmBuild-complete
@@ -142,6 +142,6 @@ CMakeFiles\PioasmBuild.dir\clean:
 .PHONY : CMakeFiles\PioasmBuild.dir\clean
 
 CMakeFiles\PioasmBuild.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "D:\Pico\Studienarbeit - Display" "D:\Pico\Studienarbeit - Display" "D:\Pico\Studienarbeit - Display\build" "D:\Pico\Studienarbeit - Display\build" "D:\Pico\Studienarbeit - Display\build\CMakeFiles\PioasmBuild.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Pico\Studienarbeit D:\Pico\Studienarbeit D:\Pico\Studienarbeit\build D:\Pico\Studienarbeit\build D:\Pico\Studienarbeit\build\CMakeFiles\PioasmBuild.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\PioasmBuild.dir\depend
 

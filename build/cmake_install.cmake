@@ -1,4 +1,4 @@
-# Install script for directory: D:/Pico/Studienarbeit - Display
+# Install script for directory: D:/Pico/Studienarbeit
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Pico/Studienarbeit - Display/build/pico-sdk/cmake_install.cmake")
+  include("D:/Pico/Studienarbeit/build/pico-sdk/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Pico/Studienarbeit - Display/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Pico/Studienarbeit/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

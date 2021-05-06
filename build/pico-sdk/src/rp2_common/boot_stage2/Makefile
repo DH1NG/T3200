@@ -51,10 +51,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Pico\Studienarbeit - Display"
+CMAKE_SOURCE_DIR = D:\Pico\Studienarbeit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Pico\Studienarbeit - Display\build"
+CMAKE_BINARY_DIR = D:\Pico\Studienarbeit\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -83,18 +83,18 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "D:\Pico\Studienarbeit - Display\build"
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Pico\Studienarbeit - Display\build\CMakeFiles" "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2\\CMakeFiles\progress.marks"
+	cd D:\Pico\Studienarbeit\build
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico\Studienarbeit\build\CMakeFiles D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\all
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Pico\Studienarbeit - Display\build\CMakeFiles" 0
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico\Studienarbeit\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "D:\Pico\Studienarbeit - Display\build"
+	cd D:\Pico\Studienarbeit\build
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\clean
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
 .PHONY : clean
 
 # The main clean target
@@ -104,30 +104,30 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "D:\Pico\Studienarbeit - Display\build"
+	cd D:\Pico\Studienarbeit\build
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\preinstall
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd "D:\Pico\Studienarbeit - Display\build"
+	cd D:\Pico\Studienarbeit\build
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\preinstall
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd "D:\Pico\Studienarbeit - Display\build"
+	cd D:\Pico\Studienarbeit\build
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
 .PHONY : depend
 
 # Convenience name for target.
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\rule:
-	cd "D:\Pico\Studienarbeit - Display\build"
+	cd D:\Pico\Studienarbeit\build
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\rule
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\rule
 
 # Convenience name for target.
@@ -137,16 +137,16 @@ bs2_default: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\rule
 
 # fast build rule for target.
 bs2_default\fast:
-	cd "D:\Pico\Studienarbeit - Display\build"
+	cd D:\Pico\Studienarbeit\build
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
 .PHONY : bs2_default\fast
 
 # Convenience name for target.
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\rule:
-	cd "D:\Pico\Studienarbeit - Display\build"
+	cd D:\Pico\Studienarbeit\build
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\rule
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\rule
 
 # Convenience name for target.
@@ -156,16 +156,16 @@ bs2_default_bin: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.
 
 # fast build rule for target.
 bs2_default_bin\fast:
-	cd "D:\Pico\Studienarbeit - Display\build"
+	cd D:\Pico\Studienarbeit\build
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
 .PHONY : bs2_default_bin\fast
 
 # Convenience name for target.
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\rule:
-	cd "D:\Pico\Studienarbeit - Display\build"
+	cd D:\Pico\Studienarbeit\build
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\rule
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\rule
 
 # Convenience name for target.
@@ -175,9 +175,9 @@ bs2_default_padded_checksummed_asm: pico-sdk\src\rp2_common\boot_stage2\CMakeFil
 
 # fast build rule for target.
 bs2_default_padded_checksummed_asm\fast:
-	cd "D:\Pico\Studienarbeit - Display\build"
+	cd D:\Pico\Studienarbeit\build
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
 .PHONY : bs2_default_padded_checksummed_asm\fast
 
 boot2_w25q080.obj: boot2_w25q080.S.obj
@@ -186,9 +186,9 @@ boot2_w25q080.obj: boot2_w25q080.S.obj
 
 # target to build an object file
 boot2_w25q080.S.obj:
-	cd "D:\Pico\Studienarbeit - Display\build"
+	cd D:\Pico\Studienarbeit\build
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\boot2_w25q080.S.obj
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
 .PHONY : boot2_w25q080.S.obj
 
 # Help Target
@@ -214,8 +214,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "D:\Pico\Studienarbeit - Display\build"
+	cd D:\Pico\Studienarbeit\build
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
 .PHONY : cmake_check_build_system
 

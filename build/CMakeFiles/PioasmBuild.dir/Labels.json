@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "D:/Pico/Studienarbeit - Display/build/CMakeFiles/PioasmBuild"
+			"file" : "D:/Pico/Studienarbeit/build/CMakeFiles/PioasmBuild"
 		},
 		{
-			"file" : "D:/Pico/Studienarbeit - Display/build/CMakeFiles/PioasmBuild.rule"
+			"file" : "D:/Pico/Studienarbeit/build/CMakeFiles/PioasmBuild.rule"
 		},
 		{
-			"file" : "D:/Pico/Studienarbeit - Display/build/CMakeFiles/PioasmBuild-complete.rule"
+			"file" : "D:/Pico/Studienarbeit/build/CMakeFiles/PioasmBuild-complete.rule"
 		},
 		{
-			"file" : "D:/Pico/Studienarbeit - Display/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule"
+			"file" : "D:/Pico/Studienarbeit/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule"
 		},
 		{
-			"file" : "D:/Pico/Studienarbeit - Display/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule"
+			"file" : "D:/Pico/Studienarbeit/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule"
 		},
 		{
-			"file" : "D:/Pico/Studienarbeit - Display/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule"
+			"file" : "D:/Pico/Studienarbeit/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule"
 		},
 		{
-			"file" : "D:/Pico/Studienarbeit - Display/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule"
+			"file" : "D:/Pico/Studienarbeit/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule"
 		},
 		{
-			"file" : "D:/Pico/Studienarbeit - Display/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule"
+			"file" : "D:/Pico/Studienarbeit/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule"
 		},
 		{
-			"file" : "D:/Pico/Studienarbeit - Display/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule"
+			"file" : "D:/Pico/Studienarbeit/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule"
 		},
 		{
-			"file" : "D:/Pico/Studienarbeit - Display/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule"
+			"file" : "D:/Pico/Studienarbeit/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule"
 		}
 	],
 	"target" : 

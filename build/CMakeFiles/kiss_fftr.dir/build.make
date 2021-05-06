@@ -46,10 +46,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Pico\Studienarbeit - Display"
+CMAKE_SOURCE_DIR = D:\Pico\Studienarbeit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Pico\Studienarbeit - Display\build"
+CMAKE_BINARY_DIR = D:\Pico\Studienarbeit\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles\kiss_fftr.dir\depend.make
@@ -62,16 +62,16 @@ include CMakeFiles\kiss_fftr.dir\flags.make
 
 CMakeFiles\kiss_fftr.dir\kiss_fftr.c.obj: CMakeFiles\kiss_fftr.dir\flags.make
 CMakeFiles\kiss_fftr.dir\kiss_fftr.c.obj: ..\kiss_fftr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/kiss_fftr.dir/kiss_fftr.c.obj"
-	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\kiss_fftr.dir\kiss_fftr.c.obj -c "D:\Pico\Studienarbeit - Display\kiss_fftr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/kiss_fftr.dir/kiss_fftr.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\kiss_fftr.dir\kiss_fftr.c.obj -c D:\Pico\Studienarbeit\kiss_fftr.c
 
 CMakeFiles\kiss_fftr.dir\kiss_fftr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kiss_fftr.dir/kiss_fftr.c.i"
-	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Pico\Studienarbeit - Display\kiss_fftr.c" > CMakeFiles\kiss_fftr.dir\kiss_fftr.c.i
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\Studienarbeit\kiss_fftr.c > CMakeFiles\kiss_fftr.dir\kiss_fftr.c.i
 
 CMakeFiles\kiss_fftr.dir\kiss_fftr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kiss_fftr.dir/kiss_fftr.c.s"
-	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Pico\Studienarbeit - Display\kiss_fftr.c" -o CMakeFiles\kiss_fftr.dir\kiss_fftr.c.s
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\Studienarbeit\kiss_fftr.c -o CMakeFiles\kiss_fftr.dir\kiss_fftr.c.s
 
 # Object files for target kiss_fftr
 kiss_fftr_OBJECTS = \
@@ -83,7 +83,7 @@ kiss_fftr_EXTERNAL_OBJECTS =
 libkiss_fftr.a: CMakeFiles\kiss_fftr.dir\kiss_fftr.c.obj
 libkiss_fftr.a: CMakeFiles\kiss_fftr.dir\build.make
 libkiss_fftr.a: CMakeFiles\kiss_fftr.dir\link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libkiss_fftr.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libkiss_fftr.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\kiss_fftr.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\kiss_fftr.dir\link.txt --verbose=$(VERBOSE)
 
@@ -97,6 +97,6 @@ CMakeFiles\kiss_fftr.dir\clean:
 .PHONY : CMakeFiles\kiss_fftr.dir\clean
 
 CMakeFiles\kiss_fftr.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "D:\Pico\Studienarbeit - Display" "D:\Pico\Studienarbeit - Display" "D:\Pico\Studienarbeit - Display\build" "D:\Pico\Studienarbeit - Display\build" "D:\Pico\Studienarbeit - Display\build\CMakeFiles\kiss_fftr.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Pico\Studienarbeit D:\Pico\Studienarbeit D:\Pico\Studienarbeit\build D:\Pico\Studienarbeit\build D:\Pico\Studienarbeit\build\CMakeFiles\kiss_fftr.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\kiss_fftr.dir\depend
 

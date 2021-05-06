@@ -1536,6 +1536,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio\
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_stdio\include\pico\stdio\driver.h
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\include\pico\stdio_uart.h
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\include\pico\stdio_usb.h
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: generated\pico_base\pico\config_autogen.h
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: generated\pico_base\pico\version.h
 
@@ -1810,6 +1811,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdlib
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_stdio\include\pico\stdio.h
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\include\pico\stdio_uart.h
+CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\include\pico\stdio_usb.h
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: generated\pico_base\pico\config_autogen.h
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: generated\pico_base\pico\version.h

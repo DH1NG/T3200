@@ -910,7 +910,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Studienarbeit_Display::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Studienarbeit_Display-Debug-20079f4fae03afa40805.json",
+					"jsonFile" : "target-Studienarbeit_Display-Debug-076e0f97ed9354ae3989.json",
 					"name" : "Studienarbeit_Display",
 					"projectIndex" : 0
 				},
@@ -924,7 +924,7 @@
 				{
 					"directoryIndex" : 41,
 					"id" : "bs2_default::@bc554eaed616d198a22d",
-					"jsonFile" : "target-bs2_default-Debug-2b1c198462eac2cfffaf.json",
+					"jsonFile" : "target-bs2_default-Debug-e165d45fc9d9d7faa36e.json",
 					"name" : "bs2_default",
 					"projectIndex" : 1
 				},
@@ -962,8 +962,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/Pico/Studienarbeit - Display/build",
-		"source" : "D:/Pico/Studienarbeit - Display"
+		"build" : "D:/Pico/Studienarbeit/build",
+		"source" : "D:/Pico/Studienarbeit"
 	},
 	"version" : 
 	{

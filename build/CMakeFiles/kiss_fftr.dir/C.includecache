@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/Pico/Studienarbeit - Display/_kiss_fft_guts.h
+D:/Pico/Studienarbeit/_kiss_fft_guts.h
 kiss_fft.h
-D:/Pico/Studienarbeit - Display/kiss_fft.h
+D:/Pico/Studienarbeit/kiss_fft.h
 limits.h
 -
 alloca.h
 -
 
-D:/Pico/Studienarbeit - Display/kiss_fft.h
+D:/Pico/Studienarbeit/kiss_fft.h
 stdlib.h
 -
 stdio.h
@@ -28,13 +28,13 @@ xmmintrin.h
 sys/types.h
 -
 
-D:/Pico/Studienarbeit - Display/kiss_fftr.c
+D:/Pico/Studienarbeit/kiss_fftr.c
 kiss_fftr.h
-D:/Pico/Studienarbeit - Display/kiss_fftr.h
+D:/Pico/Studienarbeit/kiss_fftr.h
 _kiss_fft_guts.h
-D:/Pico/Studienarbeit - Display/_kiss_fft_guts.h
+D:/Pico/Studienarbeit/_kiss_fft_guts.h
 
-D:/Pico/Studienarbeit - Display/kiss_fftr.h
+D:/Pico/Studienarbeit/kiss_fftr.h
 kiss_fft.h
-D:/Pico/Studienarbeit - Display/kiss_fft.h
+D:/Pico/Studienarbeit/kiss_fft.h
 

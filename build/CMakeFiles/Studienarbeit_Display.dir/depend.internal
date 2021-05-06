@@ -1537,6 +1537,7 @@ CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/
  D:/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h
  D:/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
  D:/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+ D:/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
@@ -1811,14 +1812,15 @@ CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib
  D:/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  D:/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
  D:/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+ D:/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  D:/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 CMakeFiles/Studienarbeit_Display.dir/Studienarbeit_Display.c.obj
- D:/Pico/Studienarbeit - Display/Display.h
- D:/Pico/Studienarbeit - Display/Studienarbeit_Display.c
- D:/Pico/Studienarbeit - Display/kiss_fft.h
- D:/Pico/Studienarbeit - Display/kiss_fftr.h
+ D:/Pico/Studienarbeit/Display.h
+ D:/Pico/Studienarbeit/Studienarbeit_Display.c
+ D:/Pico/Studienarbeit/kiss_fft.h
+ D:/Pico/Studienarbeit/kiss_fftr.h
  D:/Pico/pico-sdk/src/boards/include/boards/pico.h
  D:/Pico/pico-sdk/src/common/pico_base/include/pico.h
  D:/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h

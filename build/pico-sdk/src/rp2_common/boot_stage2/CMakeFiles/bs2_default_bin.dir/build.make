@@ -46,10 +46,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Pico\Studienarbeit - Display"
+CMAKE_SOURCE_DIR = D:\Pico\Studienarbeit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Pico\Studienarbeit - Display\build"
+CMAKE_BINARY_DIR = D:\Pico\Studienarbeit\build
 
 # Utility rule file for bs2_default_bin.
 
@@ -57,14 +57,14 @@ CMAKE_BINARY_DIR = "D:\Pico\Studienarbeit - Display\build"
 include pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\progress.make
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin: pico-sdk\src\rp2_common\boot_stage2\bs2_default.bin
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
-	cd "D:\Pico\Studienarbeit - Display\build"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
+	cd D:\Pico\Studienarbeit\build
 
 pico-sdk\src\rp2_common\boot_stage2\bs2_default.bin: pico-sdk\src\rp2_common\boot_stage2\bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
-	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin\arm-none-eabi-objcopy.exe" -Obinary "D:/Pico/Studienarbeit - Display/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf" "D:/Pico/Studienarbeit - Display/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin"
-	cd "D:\Pico\Studienarbeit - Display\build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
+	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin\arm-none-eabi-objcopy.exe" -Obinary D:/Pico/Studienarbeit/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf D:/Pico/Studienarbeit/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	cd D:\Pico\Studienarbeit\build
 
 bs2_default_bin: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin
 bs2_default_bin: pico-sdk\src\rp2_common\boot_stage2\bs2_default.bin
@@ -78,12 +78,12 @@ pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build: bs2_de
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\clean:
-	cd "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2"
+	cd D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2
 	$(CMAKE_COMMAND) -P CMakeFiles\bs2_default_bin.dir\cmake_clean.cmake
-	cd "D:\Pico\Studienarbeit - Display\build"
+	cd D:\Pico\Studienarbeit\build
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\clean
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "D:\Pico\Studienarbeit - Display" D:\Pico\pico-sdk\src\rp2_common\boot_stage2 "D:\Pico\Studienarbeit - Display\build" "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2" "D:\Pico\Studienarbeit - Display\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Pico\Studienarbeit D:\Pico\pico-sdk\src\rp2_common\boot_stage2 D:\Pico\Studienarbeit\build D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2 D:\Pico\Studienarbeit\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\depend
 

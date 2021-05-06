@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-D:/Pico/Studienarbeit - Display/_kiss_fft_guts.h
+D:/Pico/Studienarbeit/_kiss_fft_guts.h
 kiss_fft.h
-D:/Pico/Studienarbeit - Display/kiss_fft.h
+D:/Pico/Studienarbeit/kiss_fft.h
 limits.h
 -
 alloca.h
 -
 
-D:/Pico/Studienarbeit - Display/kiss_fft.c
+D:/Pico/Studienarbeit/kiss_fft.c
 _kiss_fft_guts.h
-D:/Pico/Studienarbeit - Display/_kiss_fft_guts.h
+D:/Pico/Studienarbeit/_kiss_fft_guts.h
 
-D:/Pico/Studienarbeit - Display/kiss_fft.h
+D:/Pico/Studienarbeit/kiss_fft.h
 stdlib.h
 -
 stdio.h

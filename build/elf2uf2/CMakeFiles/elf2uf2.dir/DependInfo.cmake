@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Pico/pico-sdk/tools/elf2uf2/main.cpp" "D:/Pico/Studienarbeit - Display/build/elf2uf2/CMakeFiles/elf2uf2.dir/main.cpp.obj"
+  "D:/Pico/pico-sdk/tools/elf2uf2/main.cpp" "D:/Pico/Studienarbeit/build/elf2uf2/CMakeFiles/elf2uf2.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

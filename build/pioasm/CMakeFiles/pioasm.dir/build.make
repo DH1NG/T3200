@@ -49,7 +49,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = D:\Pico\pico-sdk\tools\pioasm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Pico\Studienarbeit - Display\build\pioasm"
+CMAKE_BINARY_DIR = D:\Pico\Studienarbeit\build\pioasm
 
 # Include any dependencies generated for this target.
 include CMakeFiles\pioasm.dir\depend.make
@@ -62,7 +62,7 @@ include CMakeFiles\pioasm.dir\flags.make
 
 CMakeFiles\pioasm.dir\main.cpp.obj: CMakeFiles\pioasm.dir\flags.make
 CMakeFiles\pioasm.dir\main.cpp.obj: D:\Pico\pico-sdk\tools\pioasm\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pioasm.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\pioasm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pioasm.dir/main.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\pioasm.dir\main.cpp.obj /FdCMakeFiles\pioasm.dir\ /FS -c D:\Pico\pico-sdk\tools\pioasm\main.cpp
 <<
@@ -81,7 +81,7 @@ CMakeFiles\pioasm.dir\main.cpp.s: cmake_force
 
 CMakeFiles\pioasm.dir\pio_assembler.cpp.obj: CMakeFiles\pioasm.dir\flags.make
 CMakeFiles\pioasm.dir\pio_assembler.cpp.obj: D:\Pico\pico-sdk\tools\pioasm\pio_assembler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pioasm.dir/pio_assembler.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\pioasm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pioasm.dir/pio_assembler.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\pioasm.dir\pio_assembler.cpp.obj /FdCMakeFiles\pioasm.dir\ /FS -c D:\Pico\pico-sdk\tools\pioasm\pio_assembler.cpp
 <<
@@ -100,7 +100,7 @@ CMakeFiles\pioasm.dir\pio_assembler.cpp.s: cmake_force
 
 CMakeFiles\pioasm.dir\pio_disassembler.cpp.obj: CMakeFiles\pioasm.dir\flags.make
 CMakeFiles\pioasm.dir\pio_disassembler.cpp.obj: D:\Pico\pico-sdk\tools\pioasm\pio_disassembler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pioasm.dir/pio_disassembler.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\pioasm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pioasm.dir/pio_disassembler.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\pioasm.dir\pio_disassembler.cpp.obj /FdCMakeFiles\pioasm.dir\ /FS -c D:\Pico\pico-sdk\tools\pioasm\pio_disassembler.cpp
 <<
@@ -119,7 +119,7 @@ CMakeFiles\pioasm.dir\pio_disassembler.cpp.s: cmake_force
 
 CMakeFiles\pioasm.dir\gen\lexer.cpp.obj: CMakeFiles\pioasm.dir\flags.make
 CMakeFiles\pioasm.dir\gen\lexer.cpp.obj: D:\Pico\pico-sdk\tools\pioasm\gen\lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pioasm.dir/gen/lexer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\pioasm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pioasm.dir/gen/lexer.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\pioasm.dir\gen\lexer.cpp.obj /FdCMakeFiles\pioasm.dir\ /FS -c D:\Pico\pico-sdk\tools\pioasm\gen\lexer.cpp
 <<
@@ -138,7 +138,7 @@ CMakeFiles\pioasm.dir\gen\lexer.cpp.s: cmake_force
 
 CMakeFiles\pioasm.dir\gen\parser.cpp.obj: CMakeFiles\pioasm.dir\flags.make
 CMakeFiles\pioasm.dir\gen\parser.cpp.obj: D:\Pico\pico-sdk\tools\pioasm\gen\parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pioasm.dir/gen/parser.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\pioasm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pioasm.dir/gen/parser.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\pioasm.dir\gen\parser.cpp.obj /FdCMakeFiles\pioasm.dir\ /FS -c D:\Pico\pico-sdk\tools\pioasm\gen\parser.cpp
 <<
@@ -157,7 +157,7 @@ CMakeFiles\pioasm.dir\gen\parser.cpp.s: cmake_force
 
 CMakeFiles\pioasm.dir\c_sdk_output.cpp.obj: CMakeFiles\pioasm.dir\flags.make
 CMakeFiles\pioasm.dir\c_sdk_output.cpp.obj: D:\Pico\pico-sdk\tools\pioasm\c_sdk_output.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pioasm.dir/c_sdk_output.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\pioasm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pioasm.dir/c_sdk_output.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\pioasm.dir\c_sdk_output.cpp.obj /FdCMakeFiles\pioasm.dir\ /FS -c D:\Pico\pico-sdk\tools\pioasm\c_sdk_output.cpp
 <<
@@ -176,7 +176,7 @@ CMakeFiles\pioasm.dir\c_sdk_output.cpp.s: cmake_force
 
 CMakeFiles\pioasm.dir\python_output.cpp.obj: CMakeFiles\pioasm.dir\flags.make
 CMakeFiles\pioasm.dir\python_output.cpp.obj: D:\Pico\pico-sdk\tools\pioasm\python_output.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pioasm.dir/python_output.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\pioasm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pioasm.dir/python_output.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\pioasm.dir\python_output.cpp.obj /FdCMakeFiles\pioasm.dir\ /FS -c D:\Pico\pico-sdk\tools\pioasm\python_output.cpp
 <<
@@ -195,7 +195,7 @@ CMakeFiles\pioasm.dir\python_output.cpp.s: cmake_force
 
 CMakeFiles\pioasm.dir\hex_output.cpp.obj: CMakeFiles\pioasm.dir\flags.make
 CMakeFiles\pioasm.dir\hex_output.cpp.obj: D:\Pico\pico-sdk\tools\pioasm\hex_output.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pioasm.dir/hex_output.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\pioasm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pioasm.dir/hex_output.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\pioasm.dir\hex_output.cpp.obj /FdCMakeFiles\pioasm.dir\ /FS -c D:\Pico\pico-sdk\tools\pioasm\hex_output.cpp
 <<
@@ -214,7 +214,7 @@ CMakeFiles\pioasm.dir\hex_output.cpp.s: cmake_force
 
 CMakeFiles\pioasm.dir\ada_output.cpp.obj: CMakeFiles\pioasm.dir\flags.make
 CMakeFiles\pioasm.dir\ada_output.cpp.obj: D:\Pico\pico-sdk\tools\pioasm\ada_output.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pioasm.dir/ada_output.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\pioasm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pioasm.dir/ada_output.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\pioasm.dir\ada_output.cpp.obj /FdCMakeFiles\pioasm.dir\ /FS -c D:\Pico\pico-sdk\tools\pioasm\ada_output.cpp
 <<
@@ -257,9 +257,9 @@ pioasm.exe: CMakeFiles\pioasm.dir\hex_output.cpp.obj
 pioasm.exe: CMakeFiles\pioasm.dir\ada_output.cpp.obj
 pioasm.exe: CMakeFiles\pioasm.dir\build.make
 pioasm.exe: CMakeFiles\pioasm.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Pico\Studienarbeit - Display\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable pioasm.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Pico\Studienarbeit\build\pioasm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable pioasm.exe"
 	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\pioasm.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\pioasm.dir\objects1.rsp @<<
- /out:pioasm.exe /implib:pioasm.lib /pdb:"D:\Pico\Studienarbeit - Display\build\pioasm\pioasm.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:pioasm.exe /implib:pioasm.lib /pdb:D:\Pico\Studienarbeit\build\pioasm\pioasm.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -272,6 +272,6 @@ CMakeFiles\pioasm.dir\clean:
 .PHONY : CMakeFiles\pioasm.dir\clean
 
 CMakeFiles\pioasm.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Pico\pico-sdk\tools\pioasm D:\Pico\pico-sdk\tools\pioasm "D:\Pico\Studienarbeit - Display\build\pioasm" "D:\Pico\Studienarbeit - Display\build\pioasm" "D:\Pico\Studienarbeit - Display\build\pioasm\CMakeFiles\pioasm.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Pico\pico-sdk\tools\pioasm D:\Pico\pico-sdk\tools\pioasm D:\Pico\Studienarbeit\build\pioasm D:\Pico\Studienarbeit\build\pioasm D:\Pico\Studienarbeit\build\pioasm\CMakeFiles\pioasm.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\pioasm.dir\depend
 

@@ -141,7 +141,7 @@ Discarded input sections
                 0x00000000       0x38 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .debug_ranges  0x00000000       0x98 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .debug_line    0x00000000      0x487 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
- .debug_str     0x00000000      0x364 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+ .debug_str     0x00000000      0x35a CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .debug_frame   0x00000000       0x90 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .ARM.attributes
@@ -243,7 +243,7 @@ Discarded input sections
  .debug_abbrev  0x00000000       0x12 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
  .debug_aranges
                 0x00000000       0x38 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
- .debug_str     0x00000000       0x6f CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+ .debug_str     0x00000000       0x65 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
  .debug_ranges  0x00000000       0x30 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
  .ARM.attributes
                 0x00000000       0x22 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -294,7 +294,7 @@ Discarded input sections
                 0x00000000       0x38 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .debug_ranges  0x00000000      0x158 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .debug_line    0x00000000      0x46f CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
- .debug_str     0x00000000      0x3ab CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+ .debug_str     0x00000000      0x3a1 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .debug_frame   0x00000000       0x74 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .ARM.attributes
@@ -334,7 +334,7 @@ Discarded input sections
                 0x00000000       0x48 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .debug_ranges  0x00000000      0x3b0 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .debug_line    0x00000000      0x75f CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
- .debug_str     0x00000000      0x47d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
+ .debug_str     0x00000000      0x473 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .debug_frame   0x00000000       0x94 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .ARM.attributes
@@ -370,7 +370,7 @@ Discarded input sections
                 0x00000000       0x20 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
  .debug_ranges  0x00000000       0x10 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
  .debug_line    0x00000000      0x19a CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
- .debug_str     0x00000000      0x207 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
+ .debug_str     0x00000000      0x1fd CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
  .debug_frame   0x00000000       0x38 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
  .ARM.attributes
@@ -419,7 +419,7 @@ Discarded input sections
                 0x00000000       0x58 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj
  .debug_ranges  0x00000000      0x2b8 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj
  .debug_line    0x00000000      0x749 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj
- .debug_str     0x00000000      0x41b CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj
+ .debug_str     0x00000000      0x411 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj
  .debug_frame   0x00000000       0xec CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj
  .ARM.attributes
@@ -499,7 +499,7 @@ Discarded input sections
                 0x00000000       0x20 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
  .debug_ranges  0x00000000       0x10 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
  .debug_line    0x00000000      0x267 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
- .debug_str     0x00000000      0x329 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+ .debug_str     0x00000000      0x31f CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
  .debug_frame   0x00000000       0x20 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
  .ARM.attributes
@@ -805,7 +805,7 @@ Discarded input sections
                 0x00000000      0x128 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .debug_ranges  0x00000000      0x4b8 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .debug_line    0x00000000     0x1dc0 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
- .debug_str     0x00000000      0x4fd CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ .debug_str     0x00000000      0x4f3 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .debug_frame   0x00000000      0x3a0 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .ARM.attributes
@@ -848,7 +848,7 @@ Discarded input sections
                 0x00000000       0x40 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  .debug_ranges  0x00000000       0x30 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  .debug_line    0x00000000      0x250 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
- .debug_str     0x00000000      0x383 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+ .debug_str     0x00000000      0x379 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  .debug_frame   0x00000000       0x88 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  .ARM.attributes
@@ -959,7 +959,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
- .debug_str     0x00000000      0x186 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+ .debug_str     0x00000000      0x17c CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
  .ARM.attributes
                 0x00000000       0x32 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
@@ -984,7 +984,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
- .debug_str     0x00000000      0x185 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+ .debug_str     0x00000000      0x17b CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
  .ARM.attributes
                 0x00000000       0x32 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
@@ -996,7 +996,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
- .debug_str     0x00000000      0x182 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+ .debug_str     0x00000000      0x178 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
  .ARM.attributes
                 0x00000000       0x32 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
@@ -1008,7 +1008,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
- .debug_str     0x00000000      0x184 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+ .debug_str     0x00000000      0x17a CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
  .ARM.attributes
                 0x00000000       0x32 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
@@ -1020,7 +1020,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
- .debug_str     0x00000000      0x182 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+ .debug_str     0x00000000      0x178 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
  .ARM.attributes
                 0x00000000       0x32 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
@@ -1032,7 +1032,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
- .debug_str     0x00000000      0x182 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
+ .debug_str     0x00000000      0x178 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
  .ARM.attributes
                 0x00000000       0x32 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
@@ -1044,7 +1044,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
- .debug_str     0x00000000      0x188 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+ .debug_str     0x00000000      0x17e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
  .ARM.attributes
                 0x00000000       0x32 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
@@ -1056,7 +1056,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
- .debug_str     0x00000000      0x188 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+ .debug_str     0x00000000      0x17e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
  .ARM.attributes
                 0x00000000       0x32 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
@@ -1124,7 +1124,7 @@ Discarded input sections
                 0x00000000       0x48 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .debug_ranges  0x00000000      0x178 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .debug_line    0x00000000      0x617 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
- .debug_str     0x00000000      0x720 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+ .debug_str     0x00000000      0x716 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .debug_frame   0x00000000       0xa8 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .ARM.attributes
@@ -1194,7 +1194,7 @@ Discarded input sections
                 0x00000000       0xb0 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .debug_ranges  0x00000000      0x4c0 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .debug_line    0x00000000      0xf09 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .debug_str     0x00000000      0x9ef CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ .debug_str     0x00000000      0x9e5 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .comment       0x00000000       0x4e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .debug_frame   0x00000000      0x240 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .ARM.attributes
@@ -1242,9 +1242,9 @@ Discarded input sections
                 0x00000000        0x2 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
  .data          0x00000000        0x0 libkiss_fftr.a(kiss_fftr.c.obj)
  .bss           0x00000000        0x0 libkiss_fftr.a(kiss_fftr.c.obj)
- .text          0x00000000        0x0 C:\Users\Niklas\AppData\Local\Temp\ccmtjP6C.o
- .data          0x00000000        0x0 C:\Users\Niklas\AppData\Local\Temp\ccmtjP6C.o
- .bss           0x00000000        0x0 C:\Users\Niklas\AppData\Local\Temp\ccmtjP6C.o
+ .text          0x00000000        0x0 C:\Users\Niklas\AppData\Local\Temp\ccx17aLk.o
+ .data          0x00000000        0x0 C:\Users\Niklas\AppData\Local\Temp\ccx17aLk.o
+ .bss           0x00000000        0x0 C:\Users\Niklas\AppData\Local\Temp\ccx17aLk.o
  .data          0x00000000        0x0 libkiss_fft.a(kiss_fft.c.obj)
  .bss           0x00000000        0x0 libkiss_fft.a(kiss_fft.c.obj)
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
@@ -1468,7 +1468,7 @@ LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\Niklas\AppData\Local\Temp\ccmtjP6C.o
+ .boot2         0x10000000      0x100 C:\Users\Niklas\AppData\Local\Temp\ccx17aLk.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3335,7 +3335,7 @@ LOAD CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardwa
 LOAD CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 LOAD CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 LOAD libkiss_fftr.a
-LOAD C:\Users\Niklas\AppData\Local\Temp\ccmtjP6C.o
+LOAD C:\Users\Niklas\AppData\Local\Temp\ccx17aLk.o
 LOAD libkiss_fft.a
 LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
@@ -3463,7 +3463,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000085d       0x2b libkiss_fftr.a(kiss_fftr.c.obj)
  .ARM.attributes
-                0x00000888       0x22 C:\Users\Niklas\AppData\Local\Temp\ccmtjP6C.o
+                0x00000888       0x22 C:\Users\Niklas\AppData\Local\Temp\ccx17aLk.o
  .ARM.attributes
                 0x000008aa       0x2b libkiss_fft.a(kiss_fft.c.obj)
  .ARM.attributes
@@ -3888,165 +3888,165 @@ LOAD linker stubs
  .debug_ranges  0x00003f88       0x18 libkiss_fftr.a(kiss_fftr.c.obj)
  .debug_ranges  0x00003fa0       0x60 libkiss_fft.a(kiss_fft.c.obj)
 
-.debug_line     0x00000000    0x17577
- .debug_line    0x00000000     0x121a CMakeFiles/Studienarbeit_Display.dir/Studienarbeit_Display.c.obj
- .debug_line    0x0000121a      0x837 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00001a51      0x432 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x00001e83      0x3c7 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x0000224a      0x243 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x0000248d      0x69b CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x00002b28     0x1612 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x0000413a      0x993 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x00004acd      0x1df CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00004cac      0x77f CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x0000542b      0x25d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_line    0x00005688      0x861 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x00005ee9      0x776 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x0000665f      0x9ba CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x00007019      0x378 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00007391      0x277 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x00007608      0x396 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x0000799e      0xdb6 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00008754       0x7a CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
- .debug_line    0x000087ce     0x11f6 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x000099c4      0x13d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x00009b01      0x1b1 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x00009cb2      0x2be CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x00009f70      0x3f7 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000a367      0x2f8 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000a65f     0x21bf CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .debug_line    0x0000c81e      0x691 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000ceaf       0x8d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000cf3c      0x3b7 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000d2f3      0x2fc CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000d5ef      0x1bd CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x0000d7ac      0x1d1 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_line    0x0000d97d       0xb7 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000da34       0xc8 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000dafc      0x189 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000dc85      0xc07 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000e88c      0x7a6 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_line    0x0000f032      0x40f CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_line    0x0000f441      0x7b5 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_line    0x0000fbf6      0x254 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_line    0x0000fe4a      0xb67 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_line    0x000109b1      0x6f9 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_line    0x000110aa     0x1fb6 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_line    0x00013060      0x562 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_line    0x000135c2      0xe0d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_line    0x000143cf      0x40e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_line    0x000147dd      0xa5a CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_line    0x00015237      0xa5b CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .debug_line    0x00015c92      0x2ab CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_line    0x00015f3d      0x3c3 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
- .debug_line    0x00016300      0x5eb libkiss_fftr.a(kiss_fftr.c.obj)
- .debug_line    0x000168eb      0xc8c libkiss_fft.a(kiss_fft.c.obj)
+.debug_line     0x00000000    0x1754f
+ .debug_line    0x00000000     0x1206 CMakeFiles/Studienarbeit_Display.dir/Studienarbeit_Display.c.obj
+ .debug_line    0x00001206      0x837 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00001a3d      0x432 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x00001e6f      0x3c7 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00002236      0x243 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x00002479      0x69b CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x00002b14     0x1612 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x00004126      0x993 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x00004ab9      0x1df CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00004c98      0x77f CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x00005417      0x25d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_line    0x00005674      0x861 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x00005ed5      0x776 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x0000664b      0x9ba CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x00007005      0x378 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x0000737d      0x277 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x000075f4      0x396 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x0000798a      0xdb6 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00008740       0x7a CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+ .debug_line    0x000087ba     0x11f6 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x000099b0      0x13d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x00009aed      0x1b1 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x00009c9e      0x2be CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x00009f5c      0x3f7 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000a353      0x2f8 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000a64b     0x21bf CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_line    0x0000c80a      0x691 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000ce9b       0x8d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000cf28      0x3b7 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000d2df      0x2fc CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000d5db      0x1bd CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x0000d798      0x1d1 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_line    0x0000d969       0xb7 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000da20       0xc8 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000dae8      0x189 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000dc71      0xc07 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000e878      0x7a6 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_line    0x0000f01e      0x40f CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_line    0x0000f42d      0x7b5 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_line    0x0000fbe2      0x254 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_line    0x0000fe36      0xb67 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_line    0x0001099d      0x6f9 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_line    0x00011096     0x1fb6 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_line    0x0001304c      0x562 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_line    0x000135ae      0xe0d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_line    0x000143bb      0x40e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_line    0x000147c9      0xa5a CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_line    0x00015223      0xa5b CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+ .debug_line    0x00015c7e      0x2ab CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+ .debug_line    0x00015f29      0x3c3 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+ .debug_line    0x000162ec      0x5e1 libkiss_fftr.a(kiss_fftr.c.obj)
+ .debug_line    0x000168cd      0xc82 libkiss_fft.a(kiss_fft.c.obj)
 
-.debug_str      0x00000000     0x773c
- .debug_str     0x00000000     0x11a2 CMakeFiles/Studienarbeit_Display.dir/Studienarbeit_Display.c.obj
-                               0x137a (size before relaxing)
- .debug_str     0x000011a2      0x29b CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                                0x7b1 (size before relaxing)
- .debug_str     0x0000143d      0x1b2 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                                0x363 (size before relaxing)
- .debug_str     0x000015ef       0xcd CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                                0x327 (size before relaxing)
- .debug_str     0x000016bc       0x77 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                                0x21f (size before relaxing)
- .debug_str     0x00001733      0x24b CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                                0x537 (size before relaxing)
- .debug_str     0x0000197e      0x6bf CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                                0xb3d (size before relaxing)
- .debug_str     0x0000203d      0x132 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                                0x608 (size before relaxing)
- .debug_str     0x0000216f       0x52 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                                0x1fa (size before relaxing)
- .debug_str     0x000021c1       0xd3 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                                0x46a (size before relaxing)
- .debug_str     0x00002294       0xc9 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                                0x2cb (size before relaxing)
- .debug_str     0x0000235d       0xe2 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                                0x3e9 (size before relaxing)
- .debug_str     0x0000243f      0x1e1 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                                0x5b4 (size before relaxing)
- .debug_str     0x00002620      0x23a CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                                0x6ac (size before relaxing)
- .debug_str     0x0000285a      0x100 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                                0x303 (size before relaxing)
- .debug_str     0x0000295a       0x79 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                                0x23e (size before relaxing)
- .debug_str     0x000029d3       0x75 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                                0x274 (size before relaxing)
- .debug_str     0x00002a48      0x2d0 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                                0x6c8 (size before relaxing)
- .debug_str     0x00002d18       0x4f CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-                                 0x75 (size before relaxing)
- .debug_str     0x00002d67      0x253 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                                0x47f (size before relaxing)
- .debug_str     0x00002fba       0x3d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-                                 0x71 (size before relaxing)
- .debug_str     0x00002ff7       0xa3 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                                0x242 (size before relaxing)
- .debug_str     0x0000309a       0x37 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.debug_str      0x00000000     0x7714
+ .debug_str     0x00000000     0x118e CMakeFiles/Studienarbeit_Display.dir/Studienarbeit_Display.c.obj
+                               0x1366 (size before relaxing)
+ .debug_str     0x0000118e      0x29b CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                                0x7a7 (size before relaxing)
+ .debug_str     0x00001429      0x1b2 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                                0x359 (size before relaxing)
+ .debug_str     0x000015db       0xcd CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                                0x31d (size before relaxing)
+ .debug_str     0x000016a8       0x77 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                                0x215 (size before relaxing)
+ .debug_str     0x0000171f      0x24b CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                                0x52d (size before relaxing)
+ .debug_str     0x0000196a      0x6bf CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                                0xb33 (size before relaxing)
+ .debug_str     0x00002029      0x132 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                                0x5fe (size before relaxing)
+ .debug_str     0x0000215b       0x52 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                                0x1f0 (size before relaxing)
+ .debug_str     0x000021ad       0xd3 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                                0x460 (size before relaxing)
+ .debug_str     0x00002280       0xc9 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                                0x2c1 (size before relaxing)
+ .debug_str     0x00002349       0xe2 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                                0x3df (size before relaxing)
+ .debug_str     0x0000242b      0x1e1 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                                0x5aa (size before relaxing)
+ .debug_str     0x0000260c      0x23a CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                                0x6a2 (size before relaxing)
+ .debug_str     0x00002846      0x100 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                                0x2f9 (size before relaxing)
+ .debug_str     0x00002946       0x79 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                                0x234 (size before relaxing)
+ .debug_str     0x000029bf       0x75 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                                0x26a (size before relaxing)
+ .debug_str     0x00002a34      0x2d0 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                                0x6be (size before relaxing)
+ .debug_str     0x00002d04       0x4f CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
                                  0x6b (size before relaxing)
- .debug_str     0x000030d1       0x3b CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                                 0x6f (size before relaxing)
- .debug_str     0x0000310c       0x87 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                                0x27c (size before relaxing)
- .debug_str     0x00003193      0x29a CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-                                0x4e7 (size before relaxing)
- .debug_str     0x0000342d       0x41 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                                 0x75 (size before relaxing)
- .debug_str     0x0000346e       0x46 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                                 0x7a (size before relaxing)
- .debug_str     0x000034b4       0x39 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                                 0x6d (size before relaxing)
- .debug_str     0x000034ed       0x83 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                                0x2b4 (size before relaxing)
- .debug_str     0x00003570       0x3f CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                                 0x73 (size before relaxing)
- .debug_str     0x000035af       0x96 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-                                0x20f (size before relaxing)
- .debug_str     0x00003645       0x3d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                                 0x71 (size before relaxing)
- .debug_str     0x00003682       0x3a CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-                                 0x6e (size before relaxing)
- .debug_str     0x000036bc      0x228 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-                                0x3e1 (size before relaxing)
- .debug_str     0x000038e4      0x2b1 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                                0x70e (size before relaxing)
- .debug_str     0x00003b95      0x2ac CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                                0x6eb (size before relaxing)
- .debug_str     0x00003e41      0x616 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                                0x85d (size before relaxing)
- .debug_str     0x00004457      0x207 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                                0x819 (size before relaxing)
- .debug_str     0x0000465e      0xab3 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                                0xf63 (size before relaxing)
- .debug_str     0x00005111      0x8a1 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                                0xdf3 (size before relaxing)
- .debug_str     0x000059b2      0x15f CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                                0x89c (size before relaxing)
- .debug_str     0x00005b11      0x90e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                               0x1718 (size before relaxing)
- .debug_str     0x0000641f       0xd3 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                                0x5d6 (size before relaxing)
- .debug_str     0x000064f2      0x6f4 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                               0x16cd (size before relaxing)
- .debug_str     0x00006be6       0x86 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_str     0x00002d53      0x253 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                                0x475 (size before relaxing)
+ .debug_str     0x00002fa6       0x3d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                                 0x67 (size before relaxing)
+ .debug_str     0x00002fe3       0xa3 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                                0x238 (size before relaxing)
+ .debug_str     0x00003086       0x37 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                                 0x61 (size before relaxing)
+ .debug_str     0x000030bd       0x3b CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                                 0x65 (size before relaxing)
+ .debug_str     0x000030f8       0x87 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                                0x272 (size before relaxing)
+ .debug_str     0x0000317f      0x29a CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                                0x4dd (size before relaxing)
+ .debug_str     0x00003419       0x41 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                                 0x6b (size before relaxing)
+ .debug_str     0x0000345a       0x46 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                                 0x70 (size before relaxing)
+ .debug_str     0x000034a0       0x39 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                                 0x63 (size before relaxing)
+ .debug_str     0x000034d9       0x83 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                                0x2aa (size before relaxing)
+ .debug_str     0x0000355c       0x3f CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                                 0x69 (size before relaxing)
+ .debug_str     0x0000359b       0x96 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                                0x205 (size before relaxing)
+ .debug_str     0x00003631       0x3d CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                                 0x67 (size before relaxing)
+ .debug_str     0x0000366e       0x3a CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                                 0x64 (size before relaxing)
+ .debug_str     0x000036a8      0x228 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                                0x3d7 (size before relaxing)
+ .debug_str     0x000038d0      0x2b1 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                                0x704 (size before relaxing)
+ .debug_str     0x00003b81      0x2ac CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                                0x6e1 (size before relaxing)
+ .debug_str     0x00003e2d      0x616 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                                0x853 (size before relaxing)
+ .debug_str     0x00004443      0x207 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                                0x80f (size before relaxing)
+ .debug_str     0x0000464a      0xab3 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                                0xf59 (size before relaxing)
+ .debug_str     0x000050fd      0x8a1 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                                0xde9 (size before relaxing)
+ .debug_str     0x0000599e      0x15f CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                                0x892 (size before relaxing)
+ .debug_str     0x00005afd      0x90e CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                               0x170e (size before relaxing)
+ .debug_str     0x0000640b       0xd3 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                                0x5cc (size before relaxing)
+ .debug_str     0x000064de      0x6f4 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                               0x16c3 (size before relaxing)
+ .debug_str     0x00006bd2       0x86 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                                0x3bd (size before relaxing)
+ .debug_str     0x00006c58      0x1a8 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                                0x557 (size before relaxing)
+ .debug_str     0x00006e00      0x250 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                                0x7e3 (size before relaxing)
+ .debug_str     0x00007050       0x33 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+                                0x257 (size before relaxing)
+ .debug_str     0x00007083       0x99 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
                                 0x3c7 (size before relaxing)
- .debug_str     0x00006c6c      0x1a8 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                                0x561 (size before relaxing)
- .debug_str     0x00006e14      0x250 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                                0x7ed (size before relaxing)
- .debug_str     0x00007064       0x33 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-                                0x261 (size before relaxing)
- .debug_str     0x00007097       0x99 CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-                                0x3d1 (size before relaxing)
- .debug_str     0x00007130      0x4f3 libkiss_fftr.a(kiss_fftr.c.obj)
-                                0x6cc (size before relaxing)
- .debug_str     0x00007623      0x119 libkiss_fft.a(kiss_fft.c.obj)
-                                0x3b6 (size before relaxing)
+ .debug_str     0x0000711c      0x4e9 libkiss_fftr.a(kiss_fftr.c.obj)
+                                0x6b8 (size before relaxing)
+ .debug_str     0x00007605      0x10f libkiss_fft.a(kiss_fft.c.obj)
+                                0x3a2 (size before relaxing)
 
 .debug_frame    0x00000000     0x3734
  .debug_frame   0x00000000      0x28c CMakeFiles/Studienarbeit_Display.dir/Studienarbeit_Display.c.obj

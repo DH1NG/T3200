@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Pico/Studienarbeit - Display/kiss_fft.c" "D:/Pico/Studienarbeit - Display/build/CMakeFiles/kiss_fft.dir/kiss_fft.c.obj"
+  "D:/Pico/Studienarbeit/kiss_fft.c" "D:/Pico/Studienarbeit/build/CMakeFiles/kiss_fft.dir/kiss_fft.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

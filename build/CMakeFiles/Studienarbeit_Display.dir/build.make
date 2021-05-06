@@ -46,10 +46,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Pico\Studienarbeit - Display"
+CMAKE_SOURCE_DIR = D:\Pico\Studienarbeit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Pico\Studienarbeit - Display\build"
+CMAKE_BINARY_DIR = D:\Pico\Studienarbeit\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles\Studienarbeit_Display.dir\depend.make
@@ -62,20 +62,20 @@ include CMakeFiles\Studienarbeit_Display.dir\flags.make
 
 CMakeFiles\Studienarbeit_Display.dir\Studienarbeit_Display.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\Studienarbeit_Display.c.obj: ..\Studienarbeit_Display.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Studienarbeit_Display.dir/Studienarbeit_Display.c.obj"
-	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\Studienarbeit_Display.c.obj -c "D:\Pico\Studienarbeit - Display\Studienarbeit_Display.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Studienarbeit_Display.dir/Studienarbeit_Display.c.obj"
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\Studienarbeit_Display.c.obj -c D:\Pico\Studienarbeit\Studienarbeit_Display.c
 
 CMakeFiles\Studienarbeit_Display.dir\Studienarbeit_Display.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Studienarbeit_Display.dir/Studienarbeit_Display.c.i"
-	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Pico\Studienarbeit - Display\Studienarbeit_Display.c" > CMakeFiles\Studienarbeit_Display.dir\Studienarbeit_Display.c.i
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Pico\Studienarbeit\Studienarbeit_Display.c > CMakeFiles\Studienarbeit_Display.dir\Studienarbeit_Display.c.i
 
 CMakeFiles\Studienarbeit_Display.dir\Studienarbeit_Display.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Studienarbeit_Display.dir/Studienarbeit_Display.c.s"
-	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Pico\Studienarbeit - Display\Studienarbeit_Display.c" -o CMakeFiles\Studienarbeit_Display.dir\Studienarbeit_Display.c.s
+	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Pico\Studienarbeit\Studienarbeit_Display.c -o CMakeFiles\Studienarbeit_Display.dir\Studienarbeit_Display.c.s
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i: cmake_force
@@ -88,7 +88,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdlib
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i: cmake_force
@@ -101,7 +101,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_gp
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.i: cmake_force
@@ -114,7 +114,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_cl
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.i: cmake_force
@@ -127,7 +127,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_sy
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c.i: cmake_force
@@ -140,7 +140,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_platfo
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.i: cmake_force
@@ -153,12 +153,12 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_ua
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_time\time.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_time\time.c.obj: D:\Pico\pico-sdk\src\common\pico_time\time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_time/time.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_time\time.c.obj -c D:\Pico\pico-sdk\src\common\pico_time\time.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_time\time.c.i: cmake_force
@@ -171,7 +171,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_time\time.
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj: D:\Pico\pico-sdk\src\common\pico_time\timeout_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj -c D:\Pico\pico-sdk\src\common\pico_time\timeout_helper.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_time\timeout_helper.c.i: cmake_force
@@ -184,7 +184,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_time\timeo
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.i: cmake_force
@@ -197,7 +197,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_ti
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\sem.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\sem.c.obj: D:\Pico\pico-sdk\src\common\pico_sync\sem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\sem.c.obj -c D:\Pico\pico-sdk\src\common\pico_sync\sem.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\sem.c.i: cmake_force
@@ -210,7 +210,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\sem.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\lock_core.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\lock_core.c.obj: D:\Pico\pico-sdk\src\common\pico_sync\lock_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\lock_core.c.obj -c D:\Pico\pico-sdk\src\common\pico_sync\lock_core.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\lock_core.c.i: cmake_force
@@ -223,7 +223,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\lock_
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\mutex.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\mutex.c.obj: D:\Pico\pico-sdk\src\common\pico_sync\mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\mutex.c.obj -c D:\Pico\pico-sdk\src\common\pico_sync\mutex.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\mutex.c.i: cmake_force
@@ -236,7 +236,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\mutex
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\critical_section.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\critical_section.c.obj: D:\Pico\pico-sdk\src\common\pico_sync\critical_section.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\critical_section.c.obj -c D:\Pico\pico-sdk\src\common\pico_sync\critical_section.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\critical_section.c.i: cmake_force
@@ -249,7 +249,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_sync\criti
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_util\datetime.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_util\datetime.c.obj: D:\Pico\pico-sdk\src\common\pico_util\datetime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_util\datetime.c.obj -c D:\Pico\pico-sdk\src\common\pico_util\datetime.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_util\datetime.c.i: cmake_force
@@ -262,7 +262,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_util\datet
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_util\pheap.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_util\pheap.c.obj: D:\Pico\pico-sdk\src\common\pico_util\pheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_util\pheap.c.obj -c D:\Pico\pico-sdk\src\common\pico_util\pheap.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_util\pheap.c.i: cmake_force
@@ -275,7 +275,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_util\pheap
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_util\queue.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_util\queue.c.obj: D:\Pico\pico-sdk\src\common\pico_util\queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_util\queue.c.obj -c D:\Pico\pico-sdk\src\common\pico_util\queue.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_util\queue.c.i: cmake_force
@@ -288,7 +288,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\common\pico_util\queue
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i: cmake_force
@@ -301,7 +301,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_runtim
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i: cmake_force
@@ -314,7 +314,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_cl
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i: cmake_force
@@ -327,7 +327,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_wa
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i: cmake_force
@@ -340,7 +340,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_xo
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.i: cmake_force
@@ -353,7 +353,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pl
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i: cmake_force
@@ -366,7 +366,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_vr
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.i: cmake_force
@@ -379,12 +379,12 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_ir
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c.i: cmake_force
@@ -397,12 +397,12 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_printf
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj: D:\Pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i: cmake_force
@@ -415,17 +415,17 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_bootro
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj: D:\Pico\pico-sdk\src\rp2_common\pico_divider\divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_divider\divider.S
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj: D:\Pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i: cmake_force
@@ -438,7 +438,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c.i: cmake_force
@@ -451,22 +451,22 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj: D:\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj: D:\Pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj: D:\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i: cmake_force
@@ -479,7 +479,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c.i: cmake_force
@@ -492,12 +492,12 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj: D:\Pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i: cmake_force
@@ -510,17 +510,17 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_malloc
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj: D:\Pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj: D:\Pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj   -c D:\Pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj: D:\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i: cmake_force
@@ -533,7 +533,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standa
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i: cmake_force
@@ -546,7 +546,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_standa
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i: cmake_force
@@ -559,7 +559,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio\
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i: cmake_force
@@ -572,7 +572,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i: cmake_force
@@ -585,7 +585,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i: cmake_force
@@ -598,7 +598,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i: cmake_force
@@ -611,7 +611,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_stdio_
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i: cmake_force
@@ -624,7 +624,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\r
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i: cmake_force
@@ -637,7 +637,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\portable\r
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i: cmake_force
@@ -650,7 +650,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usb
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i: cmake_force
@@ -663,7 +663,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\device\usb
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i: cmake_force
@@ -676,7 +676,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\audi
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i: cmake_force
@@ -689,7 +689,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i: cmake_force
@@ -702,7 +702,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i: cmake_force
@@ -715,7 +715,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\hid\
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i: cmake_force
@@ -728,7 +728,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\midi
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i: cmake_force
@@ -741,7 +741,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\msc\
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.i: cmake_force
@@ -754,7 +754,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\net\
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i: cmake_force
@@ -767,7 +767,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\usbt
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i: cmake_force
@@ -780,7 +780,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\class\vend
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\tusb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\tusb.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.i: cmake_force
@@ -793,7 +793,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.s: 
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj: D:\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj -c D:\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i: cmake_force
@@ -806,7 +806,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\lib\tinyusb\src\common\tus
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj: D:\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj -c D:\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i: cmake_force
@@ -819,7 +819,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\pico_fix\rp
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.i: cmake_force
@@ -832,7 +832,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_pi
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.i: cmake_force
@@ -845,7 +845,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_i2
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.i: cmake_force
@@ -858,7 +858,7 @@ CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_ad
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: CMakeFiles\Studienarbeit_Display.dir\flags.make
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: D:\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/Studienarbeit_Display.dir/D_/Pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj -c D:\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c
 
 CMakeFiles\Studienarbeit_Display.dir\D_\Pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.i: cmake_force
@@ -1018,7 +1018,7 @@ Studienarbeit_Display.elf: libkiss_fftr.a
 Studienarbeit_Display.elf: pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S
 Studienarbeit_Display.elf: libkiss_fft.a
 Studienarbeit_Display.elf: CMakeFiles\Studienarbeit_Display.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Pico\Studienarbeit - Display\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable Studienarbeit_Display.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Pico\Studienarbeit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable Studienarbeit_Display.elf"
 	C:\PROGRA~2\GNUARM~1\102020~1\bin\AR10B2~1.EXE -march=armv6-m -mcpu=cortex-m0plus -mthumb -Og -g -Wl,--build-id=none --specs=nosys.specs -Wl,--wrap=sprintf -Wl,--wrap=snprintf -Wl,--wrap=vsnprintf -Wl,--wrap=__clzsi2 -Wl,--wrap=__clzdi2 -Wl,--wrap=__ctzsi2 -Wl,--wrap=__ctzdi2 -Wl,--wrap=__popcountsi2 -Wl,--wrap=__popcountdi2 -Wl,--wrap=__clz -Wl,--wrap=__clzl -Wl,--wrap=__clzll -Wl,--wrap=__aeabi_idiv -Wl,--wrap=__aeabi_idivmod -Wl,--wrap=__aeabi_ldivmod -Wl,--wrap=__aeabi_uidiv -Wl,--wrap=__aeabi_uidivmod -Wl,--wrap=__aeabi_uldivmod -Wl,--wrap=__aeabi_dadd -Wl,--wrap=__aeabi_ddiv -Wl,--wrap=__aeabi_dmul -Wl,--wrap=__aeabi_drsub -Wl,--wrap=__aeabi_dsub -Wl,--wrap=__aeabi_cdcmpeq -Wl,--wrap=__aeabi_cdrcmple -Wl,--wrap=__aeabi_cdcmple -Wl,--wrap=__aeabi_dcmpeq -Wl,--wrap=__aeabi_dcmplt -Wl,--wrap=__aeabi_dcmple -Wl,--wrap=__aeabi_dcmpge -Wl,--wrap=__aeabi_dcmpgt -Wl,--wrap=__aeabi_dcmpun -Wl,--wrap=__aeabi_i2d -Wl,--wrap=__aeabi_l2d -Wl,--wrap=__aeabi_ui2d -Wl,--wrap=__aeabi_ul2d -Wl,--wrap=__aeabi_d2iz -Wl,--wrap=__aeabi_d2lz -Wl,--wrap=__aeabi_d2uiz -Wl,--wrap=__aeabi_d2ulz -Wl,--wrap=__aeabi_d2f -Wl,--wrap=sqrt -Wl,--wrap=cos -Wl,--wrap=sin -Wl,--wrap=tan -Wl,--wrap=atan2 -Wl,--wrap=exp -Wl,--wrap=log -Wl,--wrap=ldexp -Wl,--wrap=copysign -Wl,--wrap=trunc -Wl,--wrap=floor -Wl,--wrap=ceil -Wl,--wrap=round -Wl,--wrap=sincos -Wl,--wrap=asin -Wl,--wrap=acos -Wl,--wrap=atan -Wl,--wrap=sinh -Wl,--wrap=cosh -Wl,--wrap=tanh -Wl,--wrap=asinh -Wl,--wrap=acosh -Wl,--wrap=atanh -Wl,--wrap=exp2 -Wl,--wrap=log2 -Wl,--wrap=exp10 -Wl,--wrap=log10 -Wl,--wrap=pow -Wl,--wrap=powint -Wl,--wrap=hypot -Wl,--wrap=cbrt -Wl,--wrap=fmod -Wl,--wrap=drem -Wl,--wrap=remainder -Wl,--wrap=remquo -Wl,--wrap=expm1 -Wl,--wrap=log1p -Wl,--wrap=fma -Wl,--wrap=__aeabi_lmul -Wl,--wrap=__aeabi_fadd -Wl,--wrap=__aeabi_fdiv -Wl,--wrap=__aeabi_fmul -Wl,--wrap=__aeabi_frsub -Wl,--wrap=__aeabi_fsub -Wl,--wrap=__aeabi_cfcmpeq -Wl,--wrap=__aeabi_cfrcmple -Wl,--wrap=__aeabi_cfcmple -Wl,--wrap=__aeabi_fcmpeq -Wl,--wrap=__aeabi_fcmplt -Wl,--wrap=__aeabi_fcmple -Wl,--wrap=__aeabi_fcmpge -Wl,--wrap=__aeabi_fcmpgt -Wl,--wrap=__aeabi_fcmpun -Wl,--wrap=__aeabi_i2f -Wl,--wrap=__aeabi_l2f -Wl,--wrap=__aeabi_ui2f -Wl,--wrap=__aeabi_ul2f -Wl,--wrap=__aeabi_f2iz -Wl,--wrap=__aeabi_f2lz -Wl,--wrap=__aeabi_f2uiz -Wl,--wrap=__aeabi_f2ulz -Wl,--wrap=__aeabi_f2d -Wl,--wrap=sqrtf -Wl,--wrap=cosf -Wl,--wrap=sinf -Wl,--wrap=tanf -Wl,--wrap=atan2f -Wl,--wrap=expf -Wl,--wrap=logf -Wl,--wrap=ldexpf -Wl,--wrap=copysignf -Wl,--wrap=truncf -Wl,--wrap=floorf -Wl,--wrap=ceilf -Wl,--wrap=roundf -Wl,--wrap=sincosf -Wl,--wrap=asinf -Wl,--wrap=acosf -Wl,--wrap=atanf -Wl,--wrap=sinhf -Wl,--wrap=coshf -Wl,--wrap=tanhf -Wl,--wrap=asinhf -Wl,--wrap=acoshf -Wl,--wrap=atanhf -Wl,--wrap=exp2f -Wl,--wrap=log2f -Wl,--wrap=exp10f -Wl,--wrap=log10f -Wl,--wrap=powf -Wl,--wrap=powintf -Wl,--wrap=hypotf -Wl,--wrap=cbrtf -Wl,--wrap=fmodf -Wl,--wrap=dremf -Wl,--wrap=remainderf -Wl,--wrap=remquof -Wl,--wrap=expm1f -Wl,--wrap=log1pf -Wl,--wrap=fmaf -Wl,--wrap=malloc -Wl,--wrap=calloc -Wl,--wrap=free -Wl,--wrap=memcpy -Wl,--wrap=memset -Wl,--wrap=__aeabi_memcpy -Wl,--wrap=__aeabi_memset -Wl,--wrap=__aeabi_memcpy4 -Wl,--wrap=__aeabi_memset4 -Wl,--wrap=__aeabi_memcpy8 -Wl,--wrap=__aeabi_memset8 -Wl,-Map=Studienarbeit_Display.elf.map -Wl,--script=D:/Pico/pico-sdk/src/rp2_common/pico_standard_link/memmap_default.ld -Wl,--gc-sections -Wl,--wrap=printf -Wl,--wrap=vprintf -Wl,--wrap=puts -Wl,--wrap=putchar @CMakeFiles\Studienarbeit_Display.dir\objects1.rsp -o Studienarbeit_Display.elf  libkiss_fftr.a pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S libkiss_fft.a 
 	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin\arm-none-eabi-objcopy.exe" -Oihex Studienarbeit_Display.elf Studienarbeit_Display.hex
 	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin\arm-none-eabi-objcopy.exe" -Obinary Studienarbeit_Display.elf Studienarbeit_Display.bin
@@ -1036,6 +1036,6 @@ CMakeFiles\Studienarbeit_Display.dir\clean:
 .PHONY : CMakeFiles\Studienarbeit_Display.dir\clean
 
 CMakeFiles\Studienarbeit_Display.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "D:\Pico\Studienarbeit - Display" "D:\Pico\Studienarbeit - Display" "D:\Pico\Studienarbeit - Display\build" "D:\Pico\Studienarbeit - Display\build" "D:\Pico\Studienarbeit - Display\build\CMakeFiles\Studienarbeit_Display.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Pico\Studienarbeit D:\Pico\Studienarbeit D:\Pico\Studienarbeit\build D:\Pico\Studienarbeit\build D:\Pico\Studienarbeit\build\CMakeFiles\Studienarbeit_Display.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\Studienarbeit_Display.dir\depend
 
