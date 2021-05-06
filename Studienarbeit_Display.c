@@ -210,7 +210,7 @@ int main()
     setCursorx(0);
     setCursory(4);
     ssd1306_print(Text_A); 
-    sleep_ms(2000);
+   /* sleep_ms(2000);
     
 
     int Werte_pro_Pixel_X = freqs[(NSAMP/2)-1]/128;
@@ -252,6 +252,7 @@ int main()
     }
     show_scr();
     sleep_ms(2000);
+    */
   }
 
   // should never get here
