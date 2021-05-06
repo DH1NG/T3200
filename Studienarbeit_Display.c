@@ -136,7 +136,7 @@ int main()
     //fill_scr(0);
     setCursorx(0);
     setCursory(0);
-    ssd1306_print("                                             ");
+    ssd1306_print("                                             "); // ToDo OLED Textzeile eleganter leeren
     setCursorx(0);
     ssd1306_print("Sample"); // demonstrate some text
     show_scr();
@@ -165,6 +165,7 @@ int main()
     //fill_scr(0);
     //sleep_ms(2000);
     // compute power and calculate max freq component
+    float min_power = 0;
     float max_power = 0;
     int max_idx = 0;
     // any frequency bin over NSAMP/2 is aliased (nyquist sampling theorum)
@@ -175,7 +176,11 @@ int main()
       {
         max_power = power;
         max_idx = i;
+      }else if (power<min_power)
+      {
+        min_power = power;
       }
+      
     }
     float max_freq = freqs[max_idx];
     //printf("Greatest Frequency Component: %0.1f Hz\n", max_freq);
@@ -200,11 +205,53 @@ int main()
     //fill_scr(0);
     setCursorx(0);
     setCursory(3);
-    ssd1306_print(Text_f); // demonstrate some text
+    ssd1306_print(Text_f); 
 
     setCursorx(0);
     setCursory(4);
-    ssd1306_print(Text_A); // demonstrate some text
+    ssd1306_print(Text_A); 
+    sleep_ms(2000);
+    
+
+    int Werte_pro_Pixel_X = freqs[(NSAMP/2)-1]/128;
+    int Werte_pro_Pixel_Y = (max_power - min_power) /64;
+    int Pixel_Wert_Y[128]; // 128 Pixel haben jeweils diesen Wert
+    int pixelCountX=0;
+
+    int Werte_Array[Werte_pro_Pixel_X+1];
+
+    int n = 0;
+    while(n < NSAMP / 2){
+        for (int i = n; i < n+Werte_pro_Pixel_X; i++)
+        {
+          if (i>NSAMP/2)
+          {
+            break;
+          }
+          Werte_Array[i-n] = fft_out[i].r;
+        }
+        
+        int max_value_temp=0;
+        for (int d = 0; d < Werte_pro_Pixel_X+1; d++)
+        {
+         if (Werte_Array[d]>max_value_temp)
+         {
+           max_value_temp = Werte_Array[d];
+         }
+         
+        }
+        
+        Pixel_Wert_Y[pixelCountX] = max_value_temp / Werte_pro_Pixel_Y; 
+        pixelCountX = pixelCountX+1;
+        n = n+Werte_pro_Pixel_X;
+    }
+    fill_scr(0);
+    for (int x = 0; x < 128; x++)
+    {
+      draw_pixel(x,Pixel_Wert_Y[x],1);
+    }
+    show_scr();
+    sleep_ms(2000);
   }
 
   // should never get here
@@ -256,7 +303,9 @@ void Rechteck_Burst(PIO pio, uint sm, uint offset, uint pin, uint freq, uint Bur
 
 //--------------------------------------------------------------------------------------------------------
 // Funktionen für ADC FFT
-void sample(uint8_t *capture_buf)
+
+// run sample with predefined "sample rate" "n-samples" and put it into capture_buffer
+void sample(uint8_t *capture_buf) 
 {
   adc_fifo_drain();
   adc_run(false);
@@ -499,6 +548,7 @@ void drawBitmap(int16_t x, int16_t y, const uint8_t bitmap[], int16_t w,
   }
 }
 
+// draw letter "c" at coords "x" "y"
 void draw_letter_at(uint8_t x, uint8_t y, char c)
 {
   if (c < ' ' || c > 0x7F)
@@ -532,8 +582,8 @@ void ssd1306_print(const char *str)
     str++;
     if (c == '\n')
     {
-      cursorx = 0;
-      cursory += 8;
+      cursorx = 0; 
+      cursory += 8; // weil 8 Pixel eine Zeile sind
       continue;
     }
     draw_letter_at(cursorx, cursory, c);

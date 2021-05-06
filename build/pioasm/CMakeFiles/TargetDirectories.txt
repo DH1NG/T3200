@@ -1,3 +1,0 @@
-D:/Pico/Studienarbeit/build/pioasm/CMakeFiles/pioasm.dir
-D:/Pico/Studienarbeit/build/pioasm/CMakeFiles/edit_cache.dir
-D:/Pico/Studienarbeit/build/pioasm/CMakeFiles/rebuild_cache.dir
