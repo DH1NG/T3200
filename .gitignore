@@ -1,4 +1,3 @@
-build2/
-build/.cmake/
+build/*
+!*/*.uf2
 
-build/CMakeFiles/*
