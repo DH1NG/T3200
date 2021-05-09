@@ -41,3 +41,16 @@ pico_add_extra_outputs(Studienarbeit_Display) # Gerneriere UF2 und solche Dateif
 
 # add url via pico_set_program_url
 
+add_custom_target(pio_squarewave_datasheet DEPENDS
+		${CMAKE_CURRENT_LIST_DIR}/generated/Studienarbeit.hex
+		${CMAKE_CURRENT_LIST_DIR}/generated/Studienarbeit.pio.h
+		)
+add_custom_command(OUTPUT ${CMAKE_CURRENT_LIST_DIR}/generated/Studienarbeit.hex
+        DEPENDS ${CMAKE_CURRENT_LIST_DIR}/Studienarbeit.pio
+        COMMAND Pioasm -o hex ${CMAKE_CURRENT_LIST_DIR}/Studienarbeit.pio ${CMAKE_CURRENT_LIST_DIR}/generated/Studienarbeit_Display.hex
+        )
+add_custom_command(OUTPUT ${CMAKE_CURRENT_LIST_DIR}/generated/Studienarbeit.pio.h
+        DEPENDS ${CMAKE_CURRENT_LIST_DIR}/Studienarbeit.pio
+        COMMAND Pioasm ${CMAKE_CURRENT_LIST_DIR}/Studienarbeit.pio ${CMAKE_CURRENT_LIST_DIR}/generated/Studienarbeit.pio.h
+        )
+add_dependencies(Studienarbeit_Display pio_squarewave_datasheet)

@@ -11,6 +11,7 @@
 #include "pico/stdlib.h"
 #include "hardware/pio.h"
 #include "hardware/clocks.h"
+
 #include "Studienarbeit.pio.h"
 #include "hardware/i2c.h"
 #include "Display.h"
@@ -133,8 +134,27 @@ int main()
 
   setup_adc_fft(); // setup ports and outputs
 
+  // Setup Rechteck burst
+  PIO pio = pio0;                                                    // PIO0 verwenden
+  uint sm = pio_claim_unused_sm(pio, true);                          // irgrendeine Freie State machine zum managen des Singals
+  float freq = 56600;                                                // Gewünschte frequenz des Rechteck Signals
+  uint32_t clckdiv = (uint32_t)(12500000 / freq * 2.5f * (1 << 16)); //Um wie viel muss ich den Systemclock 125Mhz teilen um auf 56.6kHz zu kommen?
+                                                                     // Anmerkung 2.5f *(1<<16) setzt den Clock auf 12.5 Mhz das hat was mit dem Teiler zu tun siehe Pico-examples/pio/squarewave.c
+
+  for (int i = 0; i < count_of(blink_program_instructions); ++i) // Assemblerprogramm in instruction memory meiner PIO instanz laden
+    pio->instr_mem[i] = blink_program_instructions[i];
+
+  pio->sm[0].clkdiv = clckdiv; // Clockdiv für die Statemachine definieren
+  pio->sm[0].pinctrl =
+      (1 << PIO_SM0_PINCTRL_SET_COUNT_LSB) |
+      (0 << PIO_SM0_PINCTRL_SET_BASE_LSB); // Pin Control register setzten sodass mein Signal auf GP0 raus kommt
+
+  gpio_set_function(0, GPIO_FUNC_PIO0);
+  hw_set_bits(&pio->ctrl, 1 << (PIO_CTRL_SM_ENABLE_LSB + 0)); // State Machine enable setzen
+
   while (1) // Endlosschleife
   {
+    //printf("%d\n", clock_get_hz(clk_sys) / 2 * freq);
     fill_scr(0);
     //setCursorx(0);
     //setCursory(0);
@@ -158,7 +178,7 @@ int main()
     }
     //fill_scr(0);
     setCursorx(0);
-    setCursory(0);
+    setCursory(1);
     ssd1306_print("FFT"); // demonstrate some text
     //show_scr();
     //sleep_ms(2000);
@@ -205,11 +225,11 @@ int main()
 
     //fill_scr(0);
     setCursorx(0);
-    setCursory(3);
+    setCursory(4);
     ssd1306_print(Text_f);
 
     setCursorx(0);
-    setCursory(4);
+    setCursory(5);
     ssd1306_print(Text_A);
     //show_scr();
 
@@ -280,7 +300,7 @@ int main()
       char Text[16] = "X:";
       char TextB[12];
       setCursorx(0);
-      setCursory(1);
+      setCursory(2);
       sprintf(TextB, "%d  ", Pixel_Wert_Y[pixelCountX]);
       strcat(Text, TextB);
       ssd1306_print(Text);
@@ -335,15 +355,15 @@ int main()
       //for (int i = 0; i < Pixel_Wert_Y[x]; i++)
       {
 
-        draw_pixel(x, Pixel_Wert_Y[x], 1);
-        if (x < 64)
+        //draw_pixel(x, Pixel_Wert_Y[x], 1);
+        /*if (x < 64)
         {
-          // draw_pixel(x, 64 - x, 1);
+           draw_pixel(x, 64 - x, 1);
         }
         else
         {
-          // draw_pixel(x, x - 64, 1);
-        }
+           draw_pixel(x, x - 64, 1);
+        }*/
       }
       /*
       gpio_put(LED_PIN, 1);
