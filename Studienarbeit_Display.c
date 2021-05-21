@@ -27,8 +27,9 @@
 //--------------------------------------------------------------------------------------------------------
 // ADC FFT
 
-// set this to determine sample rate
-// 0     = 500,000 Hz
+// Ein sample benötigt 96 Zyklen
+// 
+// 0 - 96 = 500,000 Hz
 // 960   = 50,000 Hz
 // 9600  = 5,000 Hz
 #define CLOCK_DIV 320
@@ -75,7 +76,7 @@ void sample(uint8_t *capture_buf);
 
 #define I2C_PORT i2c0 // I2C Port auf GPIO 4 /5
 
-static uint8_t height = 32;
+static uint8_t height = 64;
 const uint8_t SID = 0x3C; // different height displays have different addr
 const uint8_t width = 128;
 //const uint8_t SID = (height == 64) ? 0x3C : 0x3D; // different height displays have different addr
@@ -88,22 +89,16 @@ uint8_t scr[1025];
 static int cursorx = 0, cursory = 0;
 
 int pages();
-void write_cmd(uint8_t cmd);
-void fill_scr(uint8_t v);
+void send_command(uint8_t cmd);
+void fill_whole_screen(uint8_t v);
 void send_data(uint8_t *data, int nbytes);
-void send2(uint8_t v1, uint8_t v2);
-void show_scr();
-void write_cmd(uint8_t cmd);
-void poweroff();
-void poweron();
-void contrast(uint8_t contrast);
-void invert(uint8_t invert);
-static void init_i2c();
-void init_display();
+void send_2_byte(uint8_t v1, uint8_t v2);
+void Refresh_Screen();
+void send_command(uint8_t cmd);
+void Display_init();
 void draw_pixel(int16_t x, int16_t y, int color);
-void drawBitmap(int16_t x, int16_t y, const uint8_t bitmap[], int16_t w, int16_t h, uint16_t color);
 void draw_letter_at(uint8_t x, uint8_t y, char c);
-void ssd1306_print(const char *str);
+void SSD1306_print(const char *str);
 void setCursorx(int x);
 void setCursory(int y);
 //--------------------------------------------------------------------------------------------------------
@@ -119,11 +114,10 @@ void blink_pin_forever(PIO pio, uint sm, uint offset, uint pin, uint freq);
 int main()
 {
   // I2C und Display Init
-  init_i2c();
-  init_display();
+  Display_init();
 
-  /*ssd1306_print("Hallo Welt!"); // demonstrate some text
-  show_scr();
+  /*SSD1306_print("Hallo Welt!"); // demonstrate some text
+  Refresh_Screen();
   sleep_ms(1000);
 */
   //ADC FFT Variablen INIT
@@ -141,7 +135,7 @@ int main()
   uint32_t clckdiv = (uint32_t)(12500000 / freq * 2.5f * (1 << 16)); //Um wie viel muss ich den Systemclock 125Mhz teilen um auf 56.6kHz zu kommen?
                                                                      // Anmerkung 2.5f *(1<<16) setzt den Clock auf 12.5 Mhz das hat was mit dem Teiler zu tun siehe Pico-examples/pio/squarewave.c
 
-  for (int i = 0; i < count_of(blink_program_instructions); ++i) // Assemblerprogramm in instruction memory meiner PIO instanz laden
+  for (int i = 0; i < count_of(blink_program_instructions); ++i) // Assemblerprogramm in Instruction Memory meiner PIO Instanz laden
     pio->instr_mem[i] = blink_program_instructions[i];
 
   pio->sm[0].clkdiv = clckdiv; // Clockdiv für die Statemachine definieren
@@ -155,13 +149,13 @@ int main()
   while (1) // Endlosschleife
   {
     //printf("%d\n", clock_get_hz(clk_sys) / 2 * freq);
-    fill_scr(0);
+    fill_whole_screen(0);
     //setCursorx(0);
     //setCursory(0);
-    //ssd1306_print("                                             "); // ToDo OLED Textzeile eleganter leeren
+    //SSD1306_print("                                             "); // ToDo OLED Textzeile eleganter leeren
     //setCursorx(0);
-    //ssd1306_print("Sam"); // demonstrate some text
-    //show_scr();
+    //SSD1306_print("Sam"); // demonstrate some text
+    //Refresh_Screen();
     //sleep_ms(200);
     // get NSAMP samples at FSAMP
     sample(cap_buf);
@@ -176,16 +170,16 @@ int main()
     {
       fft_in[i] = (float)cap_buf[i] - avg;
     }
-    //fill_scr(0);
+    //fill_whole_screen(0);
     setCursorx(0);
     setCursory(1);
-    ssd1306_print("FFT"); // demonstrate some text
-    //show_scr();
+    SSD1306_print("FFT"); // demonstrate some text
+    //Refresh_Screen();
     //sleep_ms(2000);
     // compute fast fourier transform
     kiss_fftr(cfg, fft_in, fft_out);
 
-    //fill_scr(0);
+    //fill_whole_screen(0);
     //sleep_ms(2000);
     // compute power and calculate max freq component
     float min_power = 0;
@@ -214,7 +208,7 @@ int main()
     char max_power_str[16];
     sprintf(max_freq_str, "%0.1f", max_freq);
 
-    //ssd1306_print(max_freq_str); // demonstrate some text
+    //SSD1306_print(max_freq_str); // demonstrate some text
 
     sprintf(max_freq_str, "%0.1f", max_freq);
     sprintf(max_power_str, "%0.1f", max_power);
@@ -223,15 +217,15 @@ int main()
     //strcat(Text, " A: ");
     strcat(Text_A, max_power_str);
 
-    //fill_scr(0);
+    //fill_whole_screen(0);
     setCursorx(0);
     setCursory(4);
-    ssd1306_print(Text_f);
+    SSD1306_print(Text_f);
 
     setCursorx(0);
     setCursory(5);
-    ssd1306_print(Text_A);
-    //show_scr();
+    SSD1306_print(Text_A);
+    //Refresh_Screen();
 
     //sleep_ms(750);
 
@@ -249,12 +243,12 @@ int main()
     setCursory(1);
     sprintf(TextB, "%0.1f", );
     strcat(Text, TextB);
-    ssd1306_print(Text);
+    SSD1306_print(Text);
 */
     double Werte_Array[Werte_pro_Pixel_X + 1];
 
     int n = 0;
-    while (n < NSAMP / 2)
+    while (n < NSAMP / 2) // nur Frequenzen bis zur Nyquist Frequenz (f_abtast /2 ) anschauen 
     {
       for (int i = n; i < n + Werte_pro_Pixel_X; i++)
       {
@@ -279,17 +273,17 @@ int main()
       setCursory(5);
       setCursorx(0);
       char TextB3[16];
-      //fill_scr(0);
+      //fill_whole_screen(0);
       sprintf(TextB3, "%0.1f", max_value_temp);
-      ssd1306_print(TextB3);
+      SSD1306_print(TextB3);
 
       setCursory(2);
       setCursorx(0);
       char TextB4[16];
-      //fill_scr(0);
+      //fill_whole_screen(0);
       sprintf(TextB4, "%0.1f                          ", Werte_pro_Pixel_Y);
-      ssd1306_print(TextB4);
-      show_scr();*/
+      SSD1306_print(TextB4);
+      Refresh_Screen();*/
       //sleep_ms(100);
 
       Pixel_Wert_Y[pixelCountX] = max_value_temp / Werte_pro_Pixel_Y;
@@ -303,7 +297,7 @@ int main()
       setCursory(2);
       sprintf(TextB, "%d  ", Pixel_Wert_Y[pixelCountX]);
       strcat(Text, TextB);
-      ssd1306_print(Text);
+      SSD1306_print(Text);
       gpio_put(LED_PIN, 0);
 
       //sleep_ms(00);
@@ -313,7 +307,7 @@ int main()
       pixelCountX = pixelCountX + 1;
       n = n + Werte_pro_Pixel_X;
     }
-    //show_scr();
+    //Refresh_Screen();
 
     // Find max
     /*
@@ -337,8 +331,8 @@ int main()
     setCursory(1);
     sprintf(TextB, "%d", Werte_pro_Pixel_Y);
     strcat(Text, TextB);
-    ssd1306_print(Text);
-    show_scr();
+    SSD1306_print(Text);
+    Refresh_Screen();
 */
     //char Text2[16] = "PX:";
     //char TextB2[12];
@@ -346,10 +340,10 @@ int main()
     setCursory(5);
     sprintf(TextB2, "%e", Werte_pro_Pixel_Y);
     strcat(Text2, TextB2);
-    ssd1306_print(Text2);
-    show_scr();*/
+    SSD1306_print(Text2);
+    Refresh_Screen();*/
 
-    //fill_scr(0);
+    //fill_whole_screen(0);
     for (int x = 0; x < 128; x++)
     {
       //for (int i = 0; i < Pixel_Wert_Y[x]; i++)
@@ -370,7 +364,7 @@ int main()
       setCursorx(0);
       setCursory(0);
       sprintf(TextB2, "%d", x);
-      ssd1306_print(TextB2);
+      SSD1306_print(TextB2);
       
       setCursorx(0);
       setCursory(5);
@@ -379,18 +373,18 @@ int main()
 
       sprintf(TextB3, "x: %e", Pixel_Wert_Y[x]);
       strcat(Text3, TextB3);
-      //ssd1306_print("                ");
-      //show_scr();
-      ssd1306_print(Text2);
+      //SSD1306_print("                ");
+      //Refresh_Screen();
+      SSD1306_print(Text2);
       gpio_put(LED_PIN, 0);
 */
 
       //sleep_ms(40);
       //sleep_ms(1);
     }
-    show_scr();
+    Refresh_Screen();
 
-    //show_scr();
+    //Refresh_Screen();
     gpio_put(LED_PIN, 0);
 
     //sleep_ms(20);
@@ -400,22 +394,12 @@ int main()
   kiss_fft_free(cfg);
   //-------------------------------------------------------------------------------------------------
 
-  ssd1306_print("Hallo Welt!"); // demonstrate some text
-  show_scr();
+  SSD1306_print("Hallo Welt!"); // demonstrate some text
+  Refresh_Screen();
   sleep_ms(2000);
-  fill_scr(0); // clear screen
-
-  drawBitmap(0, 0, splash1_data, 64, 64, 1);
-  show_scr();
-  sleep_ms(2000);
-  fill_scr(0); // clear screen
-
-  drawBitmap(0, 0, splash1_data2, 64, 64, 1);
-  show_scr();
+  fill_whole_screen(0); // clear screen
+  Refresh_Screen();
   sleep_ms(20000);
-
-  for (;;)
-    ;
   return 0;
 }
 
@@ -517,131 +501,81 @@ int pages() { return height / 8; }
 //uint8_t scr[pages*width+1]; // extra byte holds data send instruction
 uint8_t scr[1025]; // being: 8 pages (max) * 128 width + 1 I2C command byte
 
-void write_cmd(uint8_t cmd);
+void send_command(uint8_t cmd);
 
-void fill_scr(uint8_t v)
+void fill_whole_screen(uint8_t v)
 {
   memset(scr, v, sizeof(scr));
 }
 
-void send_data(uint8_t *data, int nbytes)
+void send_data(uint8_t *Data, int Anzahl_bytes) // Daten über I2C Senden
 {
-  i2c_write_blocking(I2C_PORT, SID, data, nbytes, false); // Funktion aus der i2c.h lib
+  i2c_write_blocking(I2C_PORT, SID, Data, Anzahl_bytes, false); // Funktion aus der i2c.h lib
 }
 
-void send2(uint8_t v1, uint8_t v2)
+void send_2_byte(uint8_t byte1, uint8_t byte2)
 {
-  uint8_t buf[2];
-  buf[0] = v1;
-  buf[1] = v2;
-  send_data(buf, 2);
+  uint8_t byte_buffer[2];
+  byte_buffer[0] = byte1;
+  byte_buffer[1] = byte2;
+  send_data(byte_buffer, 2);
 }
 
-void show_scr()
+void Refresh_Screen()
 {
 
-  write_cmd(SET_MEM_ADDR); // 0x20
-  write_cmd(0b01);         // vertical addressing mode
+  send_command(SET_MEM_ADDR); // 0x20
+  send_command(0x01);         // vertical addressing mode
 
-  write_cmd(SET_COL_ADDR); // 0x21
-  write_cmd(0);
-  write_cmd(127);
+  send_command(SET_COL_ADDR); // 0x21
+  send_command(0);
+  send_command(127);
 
-  write_cmd(SET_PAGE_ADDR); // 0x22
-  write_cmd(0);
-  write_cmd(pages() - 1);
+  send_command(SET_PAGE_ADDR); // 0x22
+  send_command(0);
+  send_command(pages() - 1);
 
   scr[0] = 0x40; // the data instruction
   int size = pages() * width + 1;
   send_data(scr, size);
 }
 
-void write_cmd(uint8_t cmd)
+void send_command(uint8_t cmd)
 {
-  send2(0x80, cmd);
+  send_2_byte(0x80, cmd);
 }
 
-void poweroff() { write_cmd(SET_DISP | 0x00); }
 
-void poweron() { write_cmd(SET_DISP | 0x01); }
-
-void contrast(uint8_t contrast)
+void Display_init()
 {
-  write_cmd(SET_CONTRAST);
-  write_cmd(contrast);
-}
-
-void invert(uint8_t invert) { write_cmd(SET_NORM_INV | (invert & 1)); }
-
-static void init_i2c()
-{
-  // This example will use I2C0 on GPIO4 (SDA) and GPIO5 (SCL)
   i2c_init(I2C_PORT, 100 * 1000);
   gpio_set_function(4, GPIO_FUNC_I2C);
   gpio_set_function(5, GPIO_FUNC_I2C);
-  gpio_pull_up(4);
-  gpio_pull_up(5);
-}
+  gpio_pull_up(4); // SDA Pullup
+  gpio_pull_up(5); //SCL Pullup
 
-void init_display()
-{
-  init_i2c();
-  height = 64;
+  // Init Commands in Array -> Reihenfolge aus Application Note SSD1306.pdf S. 64 -> Software Initialization Chart 
+static uint8_t init_cmds[] = {
+      SET_MUX_RATIO, 63, // Ich möchte manuell eine Multiplex Ratio eingeben -> 0xA8 // Default 63        
+      SET_DISP_OFFSET, 0x00, // 0xD3 > Offset auf 00h ( X-Wert der Matrix)
+      SET_DISP_START_LINE, // Start Zeile 00 -> 0x40 (Y-Wert der Matrix) Line (0x40 - 0x7F) Zeile 0 bis 63
+      SET_SEG_REMAP | 0x01, // 0xA0 -> 0xA1 > Mapping zwischen Display und Driver anpassen -> Mehr Gestaltungsmöglichkeiten pro Pixel (Kontrast etc)
+      SET_COM_OUT_DIR | 0x08, // 0xC0 -> 0xC8
+      SET_COM_PIN_CFG, 0x12, //0xDA auf 0x12 -> Sagen welcher COM vom SSD1306 welche Zeile im OLED ansteuern soll siehe SSD1306.pdf Table 10-3 COM Pins Hardware Config 7.
+      SET_CONTRAST, 0x7F, // Kontrast 0x81 // Werte von 0x00 bis 0xFF -> "Helligkeit der Anzeige" 0xFF ist max
+      SET_ENTIRE_ON, // 0xA4 > Outputs aus GDDRAM entnehmen 
+      SET_NORM_INV, // Normal/inverse Modus > Ist eine 1 eine Pixel an oder aus -> Normal also 1=An
+      SET_DISP_CLK_DIV, 0x80, // Taktrate einstellen
+      SET_CHARGE_PUMP, 0x14, // Spannungsversorgung -> Soll die Eingangsspannung verstärkt werden? 0x14=ja
+      SET_DISP | 0x01 //Display anzeigen
+      };
 
-  static uint8_t cmds[] = {
-      SET_DISP | 0x00, // display off 0x0E | 0x00
-
-      SET_MEM_ADDR, // 0x20
-      0x00,         // horizontal
-
-      //# resolution and layout
-      SET_DISP_START_LINE | 0x00, // 0x40
-      SET_SEG_REMAP | 0x01,       //# column addr 127 mapped to SEG0
-
-      SET_MUX_RATIO, // 0xA8
-      63,            //(uint8_t)(height - 1),
-
-      SET_COM_OUT_DIR | 0x08, //# scan from COM[N] to COM0  (0xC0 | val)
-      SET_DISP_OFFSET,        // 0xD3
-      0x00,
-
-      //SET_COM_PIN_CFG, // 0xDA
-      //0x02 if self.width > 2 * self.height else 0x12,
-      //width > 2*height ? 0x02 : 0x12,
-      SET_COM_PIN_CFG, 0x12, //(uint8_t)(height == 32 ? 0x02 : 0x12),
-
-      //# timing and driving scheme
-      SET_DISP_CLK_DIV, // 0xD5
-      0x80,
-
-      SET_PRECHARGE, // 0xD9
-      //0x22 if self.external_vcc else 0xF1,
-      //external_vcc ? 0x22 : 0xF1,
-      0xF1,
-
-      SET_VCOM_DESEL, // 0xDB
-      //0x30,  //# 0.83*Vcc
-      0x40, // changed by mcarter
-
-      //# display
-      SET_CONTRAST, // 0x81
-      0xFF,         //# maximum
-
-      SET_ENTIRE_ON, //# output follows RAM contents // 0xA4
-      SET_NORM_INV,  //# not inverted 0xA6
-
-      SET_CHARGE_PUMP, // 0x8D
-      //0x10 if self.external_vcc else 0x14,
-      //external_vcc ? 0x10 : 0x14,
-      0x14,
-
-      SET_DISP | 0x01};
-
-  // write all the commands
-  for (int i = 0; i < sizeof(cmds); i++)
-    write_cmd(cmds[i]);
-  fill_scr(0);
-  show_scr();
+  // Einmal die Init durcharbeiten
+  for (int i = 0; i < sizeof(init_cmds); i++){
+    send_command(init_cmds[i]);
+  }
+  fill_whole_screen(0);
+  Refresh_Screen();
 }
 
 void draw_pixel(int16_t x, int16_t y, int color)
@@ -670,25 +604,6 @@ void draw_pixel(int16_t x, int16_t y, int color)
   }
 }
 
-void drawBitmap(int16_t x, int16_t y, const uint8_t bitmap[], int16_t w,
-                int16_t h, uint16_t color)
-{
-  int16_t byteWidth = (w + 7) / 8; // Bitmap scanline pad = whole byte
-  uint8_t byte = 0;
-
-  for (int16_t j = 0; j < h; j++, y++)
-  {
-    for (int16_t i = 0; i < w; i++)
-    {
-      if (i & 7)
-        byte <<= 1;
-      else
-        byte = bitmap[j * byteWidth + i / 8];
-      if (byte & 0x80)
-        draw_pixel(x + i, y, color);
-    }
-  }
-}
 
 // draw letter "c" at coords "x" "y"
 void draw_letter_at(uint8_t x, uint8_t y, char c)
@@ -716,7 +631,7 @@ void draw_letter_at(uint8_t x, uint8_t y, char c)
 
 // void draw_letter(char c) { draw_letter_at(0, 0, c); }
 
-void ssd1306_print(const char *str)
+void SSD1306_print(const char *str)
 {
   char c;
   while (c = *str)
