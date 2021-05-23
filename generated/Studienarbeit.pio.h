@@ -7,39 +7,49 @@
 #endif
 
 // ----- //
-// blink //
+// burst //
 // ----- //
 
-#define blink_wrap_target 0
-#define blink_wrap 3
+#define burst_wrap_target 0
+#define burst_wrap 13
 
-static const uint16_t blink_program_instructions[] = {
+static const uint16_t burst_program_instructions[] = {
             //     .wrap_target
     0xe081, //  0: set    pindirs, 1                 
-    0xe101, //  1: set    pins, 1                [1] 
-    0xe000, //  2: set    pins, 0                    
-    0x0001, //  3: jmp    1                          
+    0x80a0, //  1: pull   block                      
+    0xa047, //  2: mov    y, osr                     
+    0xa022, //  3: mov    x, y                       
+    0xe101, //  4: set    pins, 1                [1] 
+    0xe000, //  5: set    pins, 0                    
+    0x0044, //  6: jmp    x--, 4                     
+    0xe03f, //  7: set    x, 31                      
+    0xa442, //  8: nop                           [4] 
+    0x0048, //  9: jmp    x--, 8                     
+    0xe03f, // 10: set    x, 31                      
+    0xa442, // 11: nop                           [4] 
+    0x004b, // 12: jmp    x--, 11                    
+    0x0003, // 13: jmp    3                          
             //     .wrap
 };
 
 #if !PICO_NO_HARDWARE
-static const struct pio_program blink_program = {
-    .instructions = blink_program_instructions,
-    .length = 4,
+static const struct pio_program burst_program = {
+    .instructions = burst_program_instructions,
+    .length = 14,
     .origin = -1,
 };
 
-static inline pio_sm_config blink_program_get_default_config(uint offset) {
+static inline pio_sm_config burst_program_get_default_config(uint offset) {
     pio_sm_config c = pio_get_default_sm_config();
-    sm_config_set_wrap(&c, offset + blink_wrap_target, offset + blink_wrap);
+    sm_config_set_wrap(&c, offset + burst_wrap_target, offset + burst_wrap);
     return c;
 }
 
 // this is a raw helper function for use by the user which sets up the GPIO output, and configures the SM to output on a particular pin
-void blink_program_init(PIO pio, uint sm, uint offset, uint pin) {
+void burst_program_init(PIO pio, uint sm, uint offset, uint pin) {
    pio_gpio_init(pio, pin);
    pio_sm_set_consecutive_pindirs(pio, sm, pin, 1, true);
-   pio_sm_config c = blink_program_get_default_config(offset);
+   pio_sm_config c = burst_program_get_default_config(offset);
    sm_config_set_set_pins(&c, pin, 1);
    pio_sm_init(pio, sm, offset, &c);
    pio_sm_set_enabled(pio, sm, true);
